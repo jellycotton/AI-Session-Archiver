@@ -10,8 +10,8 @@ All data is stored on your device. Nothing is uploaded to the cloud or sent anyw
 
 ASA is available from the following stores:
 
-- **BOOTH:** <BOOTH_PRODUCT_URL>
-- **Lemon Squeezy:** <LEMONSQUEEZY_PRODUCT_URL>
+- **BOOTH:** https://jellycotton.booth.pm/items/8436423
+- **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
 This repository is for **product information only** — the tool itself is not distributed here. Please purchase and download from the stores above.
 
@@ -71,7 +71,7 @@ Page size, font, margins, and more can be configured. Custom fonts can be specif
 
 ## Getting Started
 
-1. Purchase from [BOOTH](<BOOTH_PRODUCT_URL>) or [Lemon Squeezy](<LEMONSQUEEZY_PRODUCT_URL>)
+1. Purchase from [BOOTH](https://jellycotton.booth.pm/items/8436423) or [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)
 2. Extract the downloaded ZIP to any location
 3. Run the setup file inside the folder
 4. Follow the guide to add the extension from the Chrome Web Store
