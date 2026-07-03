@@ -7,23 +7,17 @@ A small button (widget) is added to the chat screen of each AI service. Press it
 All data is stored on your device. Nothing is uploaded to the cloud or sent anywhere externally.
 
 ## Where to Get It
+
 ASA is available from the following stores:
+
 - **BOOTH:** <BOOTH_PRODUCT_URL>
 - **Lemon Squeezy:** <LEMONSQUEEZY_PRODUCT_URL>
 
 This repository is for **product information only** — the tool itself is not distributed here. Please purchase and download from the stores above.
 
-In addition to normal chats, ASA supports saving shared chats, temporary/incognito chats, opted-out chats (Gemini), group chats (ChatGPT), and </> Code (Claude).
-
-*Support for </> Code (Claude) is currently in beta.*
-
-*Attached content such as AI-generated images is saved in HTML and PDF. In Markdown and plain text it is replaced with a placeholder such as [image].*
-
-━━━━━━━━━━━━━━━━━━━━━━
 ## Specifications
-━━━━━━━━━━━━━━━━━━━━━━
+
 - **Product name:** AI Session Archiver (ASA)
-- **Version:** 1.0.5
 - **Lineup:** ChatGPT edition / Claude edition / Gemini edition
 - **Supported OS:** Windows 10 / 11
 - **Requirements:** Google Chrome
@@ -38,18 +32,16 @@ In addition to normal chats, ASA supports saving shared chats, temporary/incogni
 - **Integration:** Chrome extension (distributed via the Web Store) + desktop app
 - **Languages:** Japanese / English
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## How to Use
-━━━━━━━━━━━━━━━━━━━━━━
+
 1. Open a conversation page of an AI website in Chrome
 2. Display the conversation you want to save
 3. Click the ⬇ (save) on the widget — the conversation is saved
    (If the title confirmation dialog is enabled, continue to step 4)
 4. In the title confirmation dialog you can edit the title and choose tags. Press OK to save.
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## Main Features
-━━━━━━━━━━━━━━━━━━━━━━
+
 **Save**
 Saves the conversation currently on screen, as is.
 
@@ -71,16 +63,14 @@ Beyond a shared destination, you can set an individual destination per format (H
 **Detailed PDF settings**
 Page size, font, margins, and more can be configured. Custom fonts can be specified.
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## System Requirements
-━━━━━━━━━━━━━━━━━━━━━━
+
 - **OS:** Windows 10 / 11
 - **Requirements:** Google Chrome
 - No Python installation needed (bundled with the executable)
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## Getting Started
-━━━━━━━━━━━━━━━━━━━━━━
+
 1. Purchase from [BOOTH](<BOOTH_PRODUCT_URL>) or [Lemon Squeezy](<LEMONSQUEEZY_PRODUCT_URL>)
 2. Extract the downloaded ZIP to any location
 3. Run the setup file inside the folder
@@ -88,16 +78,14 @@ Page size, font, margins, and more can be configured. Custom fonts can be specif
 
 Detailed steps are provided in the bundled manual (README).
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## Notes
-━━━━━━━━━━━━━━━━━━━━━━
+
 - Due to specification changes on the AI service side, the tool may stop working without notice.
 - In environments with mixed monitor resolutions, the display may break. This version is recommended for use on the main monitor.
 - When using this tool, please review the terms of service of each AI service.
 
-━━━━━━━━━━━━━━━━━━━━━━
 ## Copyright / License
-━━━━━━━━━━━━━━━━━━━━━━
+
 © 2026 Dialogue & Volts
 
 - Copyright of this software belongs to Dialogue & Volts.
