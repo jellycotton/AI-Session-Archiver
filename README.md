@@ -6,6 +6,20 @@ A small button (widget) is added to the chat screen of each AI service. Press it
 
 All data is stored on your device. Nothing is uploaded to the cloud or sent anywhere externally.
 
+## Screenshots
+
+![Gemini edition settings](assets/01-gemini-settings.png)
+
+![Output details](assets/02-output-details.png)
+
+![Title confirmation dialog](assets/03-title-confirmation.png)
+
+![Auto recovery](assets/04-auto-recovery.png)
+
+![ChatGPT edition settings](assets/05-chatgpt-settings.png)
+
+![Claude edition settings](assets/06-claude-settings.png)
+
 ## Where to Get It
 
 ASA is available from the following stores:
