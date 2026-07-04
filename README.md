@@ -8,17 +8,19 @@ All data is stored on your device. Nothing is uploaded to the cloud or sent anyw
 
 ## Screenshots
 
-![ChatGPT edition settings](assets/01-chatgpt-settings.png)
+![Main screen](assets/01-main.png)
 
-![Output details](assets/02-output-details.png)
+![ChatGPT edition settings](assets/02-chatgpt-settings.png)
 
-![Title confirmation dialog](assets/03-title-confirmation.png)
+![Output details](assets/03-output-details.png)
 
-![Auto recovery](assets/04-auto-recovery.png)
+![Title confirmation dialog](assets/04-title-confirmation.png)
 
-![Gemini edition settings](assets/05-gemini-settings.png)
+![Auto recovery](assets/05-auto-recovery.png)
 
-![Claude edition settings](assets/06-claude-settings.png)
+![Gemini edition settings](assets/06-gemini-settings.png)
+
+![Claude edition settings](assets/07-claude-settings.png)
 
 ## Where to Get It
 
