@@ -8,7 +8,7 @@ All data is stored on your device. Nothing is uploaded to the cloud or sent anyw
 
 ## Screenshots
 
-![Gemini edition settings](assets/01-gemini-settings.png)
+![ChatGPT edition settings](assets/01-chatgpt-settings.png)
 
 ![Output details](assets/02-output-details.png)
 
@@ -16,7 +16,7 @@ All data is stored on your device. Nothing is uploaded to the cloud or sent anyw
 
 ![Auto recovery](assets/04-auto-recovery.png)
 
-![ChatGPT edition settings](assets/05-chatgpt-settings.png)
+![Gemini edition settings](assets/05-gemini-settings.png)
 
 ![Claude edition settings](assets/06-claude-settings.png)
 
