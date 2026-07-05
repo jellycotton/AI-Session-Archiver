@@ -31,9 +31,9 @@ It works with the web (browser) versions of ChatGPT, Claude, and Gemini, so you 
 
 ![Auto recovery](assets/05-auto-recovery.png)
 
-![Gemini edition settings](assets/06-gemini-settings.png)
+![Claude edition settings](assets/06-claude-settings.png)
 
-![Claude edition settings](assets/07-claude-settings.png)
+![Gemini edition settings](assets/07-gemini-settings.png)
 
 ## Where to Get It
 
