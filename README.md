@@ -152,19 +152,19 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 ## スクリーンショット
 
-![メイン画面](assets/01-main.png)
+![メイン画面](assets/01-main-jp.png)
 
-![ChatGPT版 設定](assets/02-chatgpt-settings.png)
+![ChatGPT版 設定](assets/02-chatgpt-settings-jp.png)
 
-![出力詳細](assets/03-output-details.png)
+![出力詳細](assets/03-output-details-jp.png)
 
-![タイトル確認ダイアログ](assets/04-title-confirmation.png)
+![タイトル確認ダイアログ](assets/04-title-confirmation-jp.png)
 
-![オートリカバリー](assets/05-auto-recovery.png)
+![オートリカバリー](assets/05-auto-recovery-jp.png)
 
-![Gemini版 設定](assets/06-gemini-settings.png)
+![Gemini版 設定](assets/06-gemini-settings-jp.png)
 
-![Claude版 設定](assets/07-claude-settings.png)
+![Claude版 設定](assets/07-claude-settings-jp.png)
 
 ## 入手方法
 
