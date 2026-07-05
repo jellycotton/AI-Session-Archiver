@@ -94,7 +94,7 @@ Beyond a shared destination, you can set an individual destination per format (H
 Page size, font, margins, and more can be configured. Custom fonts can be specified.
 
 **Update notice**
-When enabled in settings, ASA checks at startup whether a newer version has been released and, if so, shows a notice with links to BOOTH/Lemon Squeezy. Disabled by default. Checks happen at most once every 24 hours, and dismissing a notice keeps it from reappearing until the next version is released. This check only contacts GitHub to read the latest version number — it never sends your conversations or any other data.
+Enable "Notify me at startup if a new version is available" in settings and ASA will show a notice with links to BOOTH/Lemon Squeezy when a newer version exists. Disabled by default. Checks happen at most once every 24 hours. Checking "Don't notify me about this version again" before closing the notice keeps it from reappearing until the next version is released (otherwise it may show again for the same version after 24 hours). This check only contacts GitHub to read the latest version number — it never sends your conversations or any other data.
 
 ## Free Edition
 
@@ -249,7 +249,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 ページサイズ・フォント・余白などを設定できます。カスタムフォントの指定も可能。
 
 **更新通知**
-設定で有効にすると、起動時に新しいバージョンが公開されていないか確認し、あれば BOOTH／Lemon Squeezy へのリンク付きで通知します。既定はオフです。確認は最大24時間に1回まで、通知を閉じると次の新バージョンが出るまで再表示されません。この確認では GitHub に接続して最新バージョン番号を取得するのみで、会話内容などのデータは一切送信しません。
+設定の「起動時に新しいバージョンがあれば通知する」を有効にすると、新しいバージョンが公開されている場合に BOOTH／Lemon Squeezy へのリンク付きで通知します。既定はオフです。確認は最大24時間に1回まで。通知内の「このバージョンについては次回から通知しない」にチェックを入れてから閉じると、次の新バージョンが出るまで再表示されません（チェックしない場合は24時間後に同じバージョンでも再度表示されます）。この確認では GitHub に接続して最新バージョン番号を取得するのみで、会話内容などのデータは一切送信しません。
 
 ## 無料版について
 
