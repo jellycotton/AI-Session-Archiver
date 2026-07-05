@@ -58,6 +58,7 @@ This repository is for **product information only** — the tool itself is not d
   - Auto-recovery (prevents loss of unsaved data)
   - Tagging (up to 50) / freely composed titles
   - Purpose-based subfolder routing / detailed PDF settings
+  - Update check
 - **Integration:** Chrome extension (distributed via the Web Store) + desktop app
 - **Languages:** Japanese / English
 
@@ -91,6 +92,29 @@ Beyond a shared destination, you can set an individual destination per format (H
 
 **Detailed PDF settings**
 Page size, font, margins, and more can be configured. Custom fonts can be specified.
+
+**Update notice**
+When enabled in settings, ASA checks at startup whether a newer version has been released and, if so, shows a notice with links to BOOTH/Lemon Squeezy. Disabled by default. Checks happen at most once every 24 hours, and dismissing a notice keeps it from reappearing until the next version is released. This check only contacts GitHub to read the latest version number — it never sends your conversations or any other data.
+
+## Free Edition
+
+AI Session Archiver is also available as a **Free Edition** you can use forever at no cost — no time or usage limits, just a smaller feature set. It's a good way to check whether ASA fits your workflow.
+
+**Included in the Free Edition**
+- One-click save widget (including capture mode)
+- Save as HTML (unlimited)
+- Title confirmation dialog, title composition, and custom save location
+- Tagging (file name only, up to 3 tags)
+- Language and appearance switching
+
+**Unlocked only in the paid edition**
+- Export to PDF, Markdown, and plain text
+- Auto-recovery
+- Purpose-based subfolder routing
+- Detailed output settings (e.g. PDF configuration)
+- Tagging on the in-body title/heading, and a higher tag limit (up to 50)
+
+The Free Edition and the paid edition share the same browser extension and setup — switching to the paid edition later is just a reinstall (running both at once on the same PC isn't supported).
 
 ## System Requirements
 
@@ -189,6 +213,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
   - オートリカバリー（未保存データの消失を防止）
   - タグ付け（最大50個）/ 自由なタイトル構成
   - 用途別サブフォルダ振り分け / PDF詳細設定
+  - 更新チェック
 - **連携:** Chrome拡張（ウェブストア配布）＋ デスクトップアプリ
 - **言語:** 日本語 / 英語
 
@@ -222,6 +247,29 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 **PDF詳細設定**
 ページサイズ・フォント・余白などを設定できます。カスタムフォントの指定も可能。
+
+**更新通知**
+設定で有効にすると、起動時に新しいバージョンが公開されていないか確認し、あれば BOOTH／Lemon Squeezy へのリンク付きで通知します。既定はオフです。確認は最大24時間に1回まで、通知を閉じると次の新バージョンが出るまで再表示されません。この確認では GitHub に接続して最新バージョン番号を取得するのみで、会話内容などのデータは一切送信しません。
+
+## 無料版について
+
+AI Session Archiver には、無料版もあります。HTML保存に機能を絞ったシンプル版で、日数や回数に制限はありません。ASA の使い勝手を確認したい方に向いています。
+
+**無料版でできること**
+- ワンクリック保存ウィジェット（キャプチャモードを含む）
+- HTML形式での保存（回数無制限）
+- タイトル確認ダイアログ、タイトル構成、保存先フォルダの変更
+- タグ付け（ファイル名へ最大3個まで）
+- 言語・外観の切り替え
+
+**有料版でのみ解放される機能**
+- PDF／Markdown／テキストでの出力
+- オートリカバリー
+- 用途別サブフォルダ振り分け
+- PDF詳細設定などの出力詳細設定
+- タグの本文タイトル・本文冒頭への付与、タグ登録数の拡張（最大50個）
+
+無料版・有料版は同じ拡張機能を使うため、後から有料版に切り替える場合は入れ替えだけで済みます（無料版と有料版の同時利用はできません）。
 
 ## 動作環境
 
