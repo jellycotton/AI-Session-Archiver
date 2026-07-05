@@ -1,10 +1,23 @@
+<a id="en"></a>
+**English** ・ [日本語](#jp)
+
 # AI Session Archiver (ASA)
 
-ASA is a Windows tool that saves your AI conversations to your own PC with a single click. It works with the web versions of ChatGPT, Claude, and Gemini — choose the edition that matches the service you use.
+**Save and back up your ChatGPT, Claude, and Gemini conversations to your own PC — with a single click.**
 
-A small button (widget) is added to the chat screen of each AI service. Press it to save the conversation currently on screen as HTML, plain text, Markdown, or PDF. There is no limit on how many times you can save. Title, tags, and destination folder are all freely configurable, so ASA fits naturally into your existing workflow.
+AI Session Archiver (ASA) is a Windows app that saves the conversation currently on your screen as HTML, plain text, Markdown, or PDF. There is no limit on how many times you can save.
 
-All data is stored on your device. Nothing is uploaded to the cloud or sent anywhere externally.
+It works with the web (browser) versions of ChatGPT, Claude, and Gemini, so you can choose the edition that matches the service you use. Just press the small save button (widget) added to the chat screen, and your conversation is stored on your own PC. Title, tags, and destination folder are all freely configurable, so ASA fits naturally into your everyday workflow.
+
+**Everything stays on your device.** Nothing is uploaded to the cloud or sent anywhere externally.
+
+## Highlights
+
+- **One-click save, no limits** — no copy-pasting, no screenshots. Save an entire conversation with a single button.
+- **Export four formats at once** — output HTML, PDF, Markdown, and plain text together in a single save.
+- **Fully local and private** — everything is stored on your own Windows PC. Nothing is sent to the cloud.
+- **Insurance against lost chats** — for conversations that disappear when the page is closed by mistake or a crash, such as temporary chats, capture mode plus auto-recovery has you covered.
+- **One-time purchase, no subscription** — buy it once and use it as much as you like. Let ASA help you cut down on your monthly subscriptions.
 
 ## Screenshots
 
@@ -113,3 +126,134 @@ Detailed steps are provided in the bundled manual (README).
 This product uses the following open-source software:
 reportlab / ttkbootstrap / Markdown / Python / Tcl-Tk
 (See the bundled OSS_LICENSES.txt for each license.)
+
+---
+
+<a id="jp"></a>
+[English](#en) ・ **日本語**
+
+# AI Session Archiver（ASA）
+
+**ChatGPT・Claude・Gemini の会話を、ワンクリックで自分のPCに保存・バックアップ。**
+
+AI Session Archiver（ASA）は、いま画面に表示している会話をそのまま HTML・プレーンテキスト・Markdown・PDF で保存できる Windows アプリです。保存できる回数に制限はありません。
+
+ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っているサービスに合わせて版を選べます。チャット画面に追加される小さな保存ボタン（ウィジェット）を押すだけで、会話が手元のPCに保存されます。タイトル・タグ・保存先フォルダは自由に設定でき、普段の作業にそのまま馴染みます。
+
+**データはすべて自分の端末に保存されます。** クラウドへのアップロードや外部への送信は一切ありません。
+
+## 特長
+
+- **ワンクリックで保存、回数無制限** — コピペもスクリーンショットも不要。ボタンひとつで会話をまるごと保存します。
+- **4つの形式を同時出力** — HTML・PDF・Markdown・プレーンテキストから、必要な分だけまとめて一度に書き出せます。
+- **完全にローカル・非公開** — すべて自分の Windows PC 内に保存。クラウドへの送信はありません。
+- **チャット消失への保険** — 一時チャットなど、誤操作やクラッシュでページが閉じられると失われてしまうチャットに対して、キャプチャモード＋オートリカバリー機能で備えます。
+- **月額不要の買い切り** — 一度購入すればずっと使い放題。ASA で、少しでも毎月のサブスクリプションを減らしましょう。
+
+## スクリーンショット
+
+![メイン画面](assets/01-main.png)
+
+![ChatGPT版 設定](assets/02-chatgpt-settings.png)
+
+![出力詳細](assets/03-output-details.png)
+
+![タイトル確認ダイアログ](assets/04-title-confirmation.png)
+
+![オートリカバリー](assets/05-auto-recovery.png)
+
+![Gemini版 設定](assets/06-gemini-settings.png)
+
+![Claude版 設定](assets/07-claude-settings.png)
+
+## 入手方法
+
+以下のストアから購入できます。
+
+- **BOOTH:** https://jellycotton.booth.pm/items/8436423
+- **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
+
+このリポジトリは**製品紹介のみ**で、ツール本体は配布していません。上記ストアから購入・ダウンロードしてください。
+
+## 仕様
+
+- **製品名:** AI Session Archiver（ASA）
+- **ラインナップ:** ChatGPT版 / Claude版 / Gemini版
+- **対応OS:** Windows 10 / 11
+- **必要環境:** Google Chrome
+- **出力形式:** HTML / プレーンテキスト（txt）/ Markdown（md）/ PDF
+- **保存先:** 自分の端末（完全ローカル・クラウド送信なし）
+- **主な機能:**
+  - ワンクリック保存ウィジェット
+  - キャプチャモード
+  - オートリカバリー（未保存データの消失を防止）
+  - タグ付け（最大50個）/ 自由なタイトル構成
+  - 用途別サブフォルダ振り分け / PDF詳細設定
+- **連携:** Chrome拡張（ウェブストア配布）＋ デスクトップアプリ
+- **言語:** 日本語 / 英語
+
+## 使い方
+
+1. Chrome で AI サービスの会話ページを開く
+2. 保存したい会話を表示する
+3. ウィジェットの ⬇（保存）をクリック — 会話が保存されます
+   （タイトル確認ダイアログが有効な場合は手順4へ）
+4. タイトル確認ダイアログでタイトル編集・タグ選択ができます。OK で保存。
+
+## 主な機能
+
+**保存**
+いま画面に表示している会話を、そのまま保存します。
+
+**キャプチャモード**
+スクロールに追従して内容を集め、ひとつの会話につなぎ直してから保存します。作動中は会話をリアルタイムに保持し続けます。
+
+**オートリカバリー**
+キャプチャモード中に限り、保存前にアプリやChromeを閉じても会話を一時的に保持します（設定で有効化した場合のみ）。次回起動時に未保存の会話が見つかると、保存するか尋ねる画面が出ます。一時チャットなど、誤操作や事故で失われかねない場面を想定しています。
+
+**タグ付け**
+タグ（ラベル）はファイル名・本文タイトル・本文先頭の3か所に付けられます。最大50個まで登録でき、タイトルの先頭・末尾どちらに置くかも選べます。
+
+**タイトル構成**
+日付・時刻・サービス名などのパーツを、好きな順に並べてファイル名を組み立てます。日付/時刻の形式や区切り文字も調整可能。保存直前にその場でタイトルを編集することもできます。
+
+**保存先の振り分け**
+共通の保存先に加え、形式ごと（HTML / md / txt / PDF）に個別の保存先を設定できます。形式別のサブフォルダ分けや、プロジェクト名・チャット種別による振り分けにも対応。
+
+**PDF詳細設定**
+ページサイズ・フォント・余白などを設定できます。カスタムフォントの指定も可能。
+
+## 動作環境
+
+- **OS:** Windows 10 / 11
+- **必要環境:** Google Chrome
+- Python のインストール不要（実行ファイルに同梱）
+
+## はじめかた
+
+1. [BOOTH](https://jellycotton.booth.pm/items/8436423) または [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) から購入
+2. ダウンロードしたZIPを任意の場所に展開
+3. フォルダ内のセットアップファイルを実行
+4. ガイドに従って Chrome ウェブストアから拡張機能を追加
+
+詳しい手順は同梱のマニュアル（README）に記載しています。
+
+## 注意事項
+
+- AIサービス側の仕様変更により、予告なく動作しなくなる場合があります。
+- モニター解像度が混在する環境では表示が崩れることがあります。本バージョンはメインモニターでの使用を推奨します。
+- 本ツールの利用にあたっては、各AIサービスの利用規約をご確認ください。
+
+## 著作権 / ライセンス
+
+© 2026 Dialogue & Volts
+
+- 本ソフトウェアの著作権は Dialogue & Volts に帰属します。
+- 購入者ご本人の私的利用の範囲内でご利用いただけます。
+- 再配布・再販売・改変版の配布は禁止です。
+- 本ソフトウェアは「現状のまま」提供され、動作を保証するものではありません。
+- 利用により生じたいかなる損害についても、作者は責任を負いません。
+
+本製品は以下のオープンソースソフトウェアを使用しています:
+reportlab / ttkbootstrap / Markdown / Python / Tcl-Tk
+（各ライセンスは同梱の OSS_LICENSES.txt を参照）
