@@ -162,9 +162,9 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 ![オートリカバリー](assets/05-auto-recovery-jp.png)
 
-![Gemini版 設定](assets/06-gemini-settings-jp.png)
+![Claude版 設定](assets/06-claude-settings-jp.png)
 
-![Claude版 設定](assets/07-claude-settings-jp.png)
+![Gemini版 設定](assets/07-gemini-settings-jp.png)
 
 ## 入手方法
 
