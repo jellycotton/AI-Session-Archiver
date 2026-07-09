@@ -15,6 +15,7 @@ It works with the web (browser) versions of ChatGPT, Claude, and Gemini, so you 
 
 - **One-click save, no limits** — no copy-pasting, no screenshots. Save an entire conversation with a single button.
 - **Export four formats at once** — output HTML, PDF, Markdown, and plain text together in a single save.
+- **Flexible tagging** — pre-register up to 50 of your favorite tags, then just pick them at save time to label file names and titles.
 - **Fully local and private** — everything is stored on your own Windows PC. Nothing is sent to the cloud.
 - **Insurance against lost chats** — for conversations that disappear when the page is closed by mistake or a crash, such as temporary chats, capture mode plus auto-recovery has you covered.
 - **One-time pricing, no subscription** — pay once and use it as much as you like. Let ASA help you cut down on your monthly subscriptions.
@@ -174,6 +175,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 - **ワンクリックで保存、回数無制限** — コピペもスクリーンショットも不要。ボタンひとつで会話をまるごと保存します。
 - **4つの形式を同時出力** — HTML・PDF・Markdown・プレーンテキストから、必要な分だけまとめて一度に書き出せます。
+- **タグ付けも自在に** — よく使うタグは最大50個までプリセット登録。保存時に選ぶだけで、ファイル名やタイトルに付けて会話を分類できます。
 - **完全にローカル・非公開** — すべて自分の Windows PC 内に保存。クラウドへの送信はありません。
 - **チャット消失への保険** — 一時チャットなど、誤操作やクラッシュでページが閉じられると失われてしまうチャットに対して、キャプチャモード＋オートリカバリー機能で備えます。
 - **月額不要の買い切り** — 一度の支払いでずっと使い放題。ASA で、少しでも毎月のサブスクリプションを減らしましょう。
