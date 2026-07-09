@@ -17,7 +17,7 @@ It works with the web (browser) versions of ChatGPT, Claude, and Gemini, so you 
 - **Export four formats at once** — output HTML, PDF, Markdown, and plain text together in a single save.
 - **Fully local and private** — everything is stored on your own Windows PC. Nothing is sent to the cloud.
 - **Insurance against lost chats** — for conversations that disappear when the page is closed by mistake or a crash, such as temporary chats, capture mode plus auto-recovery has you covered.
-- **One-time purchase, no subscription** — buy it once and use it as much as you like. Let ASA help you cut down on your monthly subscriptions.
+- **One-time pricing, no subscription** — pay once and use it as much as you like. Let ASA help you cut down on your monthly subscriptions.
 
 ## Screenshots
 
@@ -42,7 +42,7 @@ ASA is available from the following stores:
 - **BOOTH:** https://jellycotton.booth.pm/items/8436423
 - **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
-This repository is for **product information only** — the tool itself is not distributed here. Please purchase and download from the stores above.
+This repository is for **product information only** — the tool itself is not distributed here. Please get it from the stores above.
 
 A **Free Edition** (HTML save only, free forever) is also available — see [Free Edition](#free-edition) below.
 
@@ -102,6 +102,8 @@ Enable "Notify me at startup if a new version is available" in settings and ASA 
 
 AI Session Archiver is also available as a **Free Edition** you can use forever at no cost — no time or usage limits, just a smaller feature set. It's a good way to check whether ASA fits your workflow.
 
+The Free Edition is available from the same store pages ([BOOTH](https://jellycotton.booth.pm/items/8436423) / [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)) — just select the Free Edition option there.
+
 **Included in the Free Edition**
 - One-click save widget (including capture mode)
 - Save as HTML (unlimited)
@@ -126,7 +128,7 @@ The Free Edition and the paid edition share the same browser extension and setup
 
 ## Getting Started
 
-1. Purchase from [BOOTH](https://jellycotton.booth.pm/items/8436423) or [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)
+1. Get the edition you need from [BOOTH](https://jellycotton.booth.pm/items/8436423) or [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)
 2. Extract the downloaded ZIP to any location
 3. Run the setup file inside the folder
 4. Follow the guide to add the extension from the Chrome Web Store
@@ -174,7 +176,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 - **4つの形式を同時出力** — HTML・PDF・Markdown・プレーンテキストから、必要な分だけまとめて一度に書き出せます。
 - **完全にローカル・非公開** — すべて自分の Windows PC 内に保存。クラウドへの送信はありません。
 - **チャット消失への保険** — 一時チャットなど、誤操作やクラッシュでページが閉じられると失われてしまうチャットに対して、キャプチャモード＋オートリカバリー機能で備えます。
-- **月額不要の買い切り** — 一度購入すればずっと使い放題。ASA で、少しでも毎月のサブスクリプションを減らしましょう。
+- **月額不要の買い切り** — 一度の支払いでずっと使い放題。ASA で、少しでも毎月のサブスクリプションを減らしましょう。
 
 ## スクリーンショット
 
@@ -194,12 +196,12 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 ## 入手方法
 
-以下のストアから購入できます。
+以下のストアから入手できます。
 
 - **BOOTH:** https://jellycotton.booth.pm/items/8436423
 - **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
-このリポジトリは**製品紹介のみ**で、ツール本体は配布していません。上記ストアから購入・ダウンロードしてください。
+このリポジトリは**製品紹介のみ**で、ツール本体は配布していません。上記ストアから入手してください。
 
 機能を絞った**無料版**（HTML保存のみ・期限なし）もあります。詳しくは下の[無料版について](#無料版について)をご覧ください。
 
@@ -259,6 +261,8 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 AI Session Archiver には、無料版もあります。HTML保存に機能を絞ったシンプル版で、日数や回数に制限はありません。ASA の使い勝手を確認したい方に向いています。
 
+無料版も有料版と同じストアページ（[BOOTH](https://jellycotton.booth.pm/items/8436423)／[Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)）から入手できます。ページ内で無料版を選んでください。
+
 **無料版でできること**
 - ワンクリック保存ウィジェット（キャプチャモードを含む）
 - HTML形式での保存（回数無制限）
@@ -283,7 +287,7 @@ AI Session Archiver には、無料版もあります。HTML保存に機能を�
 
 ## はじめかた
 
-1. [BOOTH](https://jellycotton.booth.pm/items/8436423) または [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) から購入
+1. [BOOTH](https://jellycotton.booth.pm/items/8436423) または [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) から必要な版を入手
 2. ダウンロードしたZIPを任意の場所に展開
 3. フォルダ内のセットアップファイルを実行
 4. ガイドに従って Chrome ウェブストアから拡張機能を追加
