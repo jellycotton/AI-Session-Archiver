@@ -44,6 +44,8 @@ ASA is available from the following stores:
 
 This repository is for **product information only** — the tool itself is not distributed here. Please purchase and download from the stores above.
 
+A **Free Edition** (HTML save only, free forever) is also available — see [Free Edition](#free-edition) below.
+
 ## Specifications
 
 - **Product name:** AI Session Archiver (ASA)
@@ -198,6 +200,8 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 - **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
 このリポジトリは**製品紹介のみ**で、ツール本体は配布していません。上記ストアから購入・ダウンロードしてください。
+
+機能を絞った**無料版**（HTML保存のみ・期限なし）もあります。詳しくは下の[無料版について](#無料版について)をご覧ください。
 
 ## 仕様
 
