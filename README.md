@@ -43,7 +43,7 @@ ASA is available from the following stores:
 - **BOOTH:** https://jellycotton.booth.pm/items/8436423
 - **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
-This repository is for **product information only** — the tool itself is not distributed here. Please get it from the stores above.
+This repository hosts **product information and the Free Edition download**. The paid edition is not distributed here — please get it from the stores above.
 
 A **Free Edition** (HTML save only, free forever) is also available — see [Free Edition](#free-edition) below.
 
@@ -129,7 +129,7 @@ The Free Edition and the paid edition share the same browser extension and setup
 
 ## Getting Started
 
-1. Get the edition you need from [BOOTH](https://jellycotton.booth.pm/items/8436423) or [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)
+1. Get the edition you need from [BOOTH](https://jellycotton.booth.pm/items/8436423) or [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) (Free Edition: from [GitHub Releases](https://github.com/jellycotton/AI-Session-Archiver/releases/latest))
 2. Extract the downloaded ZIP to any location
 3. Run the setup file inside the folder
 4. Follow the guide to add the extension from the Chrome Web Store
@@ -203,7 +203,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 - **BOOTH:** https://jellycotton.booth.pm/items/8436423
 - **Lemon Squeezy:** https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a
 
-このリポジトリは**製品紹介のみ**で、ツール本体は配布していません。上記ストアから入手してください。
+このリポジトリでは**製品紹介と無料版の配布**を行っています。有料版はここでは配布していません。上記ストアから入手してください。
 
 機能を絞った**無料版**（HTML保存のみ・期限なし）もあります。詳しくは下の[無料版について](#無料版について)をご覧ください。
 
@@ -289,7 +289,7 @@ AI Session Archiver には、無料版もあります。HTML保存に機能を�
 
 ## はじめかた
 
-1. [BOOTH](https://jellycotton.booth.pm/items/8436423) または [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) から必要な版を入手
+1. [BOOTH](https://jellycotton.booth.pm/items/8436423) または [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a) から必要な版を入手（無料版は [GitHub の配布ページ](https://github.com/jellycotton/AI-Session-Archiver/releases/latest)から）
 2. ダウンロードしたZIPを任意の場所に展開
 3. フォルダ内のセットアップファイルを実行
 4. ガイドに従って Chrome ウェブストアから拡張機能を追加
