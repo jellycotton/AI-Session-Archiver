@@ -103,7 +103,7 @@ Enable "Notify me at startup if a new version is available" in settings and ASA 
 
 AI Session Archiver is also available as a **Free Edition** you can use forever at no cost — no time or usage limits, just a smaller feature set. It's a good way to check whether ASA fits your workflow.
 
-The Free Edition is available from the same store pages ([BOOTH](https://jellycotton.booth.pm/items/8436423) / [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)) — just select the Free Edition option there.
+The Free Edition can be downloaded directly from [GitHub Releases](https://github.com/jellycotton/AI-Session-Archiver/releases/latest) — no account needed. It is also available from the same store pages ([BOOTH](https://jellycotton.booth.pm/items/8436423) / [Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)) — just select the Free Edition option there.
 
 **Included in the Free Edition**
 - One-click save widget (including capture mode)
@@ -263,7 +263,7 @@ ChatGPT・Claude・Gemini のウェブ（ブラウザ）版に対応し、使っ
 
 AI Session Archiver には、無料版もあります。HTML保存に機能を絞ったシンプル版で、日数や回数に制限はありません。ASA の使い勝手を確認したい方に向いています。
 
-無料版も有料版と同じストアページ（[BOOTH](https://jellycotton.booth.pm/items/8436423)／[Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)）から入手できます。ページ内で無料版を選んでください。
+無料版は [GitHub の配布ページ](https://github.com/jellycotton/AI-Session-Archiver/releases/latest)からそのままダウンロードできます（アカウント登録は不要です）。有料版と同じストアページ（[BOOTH](https://jellycotton.booth.pm/items/8436423)／[Lemon Squeezy](https://dialoguevolts.lemonsqueezy.com/checkout/buy/8929260b-12e8-4ac4-8e9c-e878e6b6049a)）からも入手できます。その場合はページ内で無料版を選んでください。
 
 **無料版でできること**
 - ワンクリック保存ウィジェット（キャプチャモードを含む）
