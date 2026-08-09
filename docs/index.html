@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Session Archiver - save your ChatGPT, Claude and Gemini chats to your own PC</title>
+<meta name="description" content="A Windows app that saves ChatGPT, Claude and Gemini conversations to your own PC in one click. Auto-recovery keeps saving possible after a temporary or incognito page is closed. Free edition available.">
+<link rel="icon" href="img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Session Archiver">
+<meta property="og:description" content="Save your ChatGPT, Claude and Gemini chats to your own PC in one click. Windows app + Chrome extension. Free edition available.">
+<meta property="og:image" content="img/01-main.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  header{padding:64px 0 40px;text-align:center;border-bottom:1px solid var(--line)}
+  header img.logo{width:96px;margin:0 auto 20px}
+  h1{font-size:2rem;margin:0 0 12px;letter-spacing:-.01em}
+  .lede{font-size:1.15rem;color:var(--muted);max-width:44ch;margin:0 auto 28px}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;
+       background:var(--accent);color:var(--accent-fg)}
+  .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .note{margin-top:14px;font-size:.9rem;color:var(--muted)}
+
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.35rem;margin:0 0 8px}
+  h3{font-size:1.05rem;margin:0 0 6px}
+  p{margin:0 0 16px}
+  .sub{color:var(--muted);margin:0 0 28px}
+
+  .feature{background:var(--card);border:1px solid var(--line);border-radius:10px;
+           padding:20px 22px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .feature p{margin:0;color:var(--muted)}
+
+  figure{margin:0 0 32px}
+  figure img{border:1px solid var(--line);border-radius:10px}
+  figcaption{color:var(--muted);font-size:.9rem;margin-top:10px}
+
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;min-width:460px;font-size:.95rem}
+  th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+  th{font-weight:600}
+  td.yes{color:var(--accent);font-weight:600}
+  td.no{color:var(--muted)}
+
+  ul.specs{margin:0;padding-left:1.1rem;color:var(--muted)}
+  ul.specs li{margin-bottom:6px}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="img/logo.png" alt="AI Session Archiver logo">
+    <h1>AI Session Archiver</h1>
+    <p class="lede">Save your ChatGPT, Claude and Gemini conversations to your own PC in one click.</p>
+    <div class="cta">
+      <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">Download the free edition</a>
+      <a class="btn secondary" href="https://dialoguevolts.lemonsqueezy.com/">Buy - $6 one-time</a>
+    </div>
+    <p class="note">Windows 10 / 11 + Google Chrome. No account, no upload.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Three things set it apart</h2>
+    <p class="sub">Everything runs on your own machine. No conversation data is uploaded.</p>
+
+    <div class="feature">
+      <h3>Auto-recovery</h3>
+      <p>If a temporary or incognito chat is closed by an unexpected accident, its log is held
+         temporarily on your device and can be saved the next time you start ASA. Auto-recovery is a
+         setting you can freely switch on or off, so saving your logs and protecting your privacy are
+         both possible.</p>
+    </div>
+
+    <div class="feature">
+      <h3>Reusable tags</h3>
+      <p>Register up to 50 tags once, then pick them at save time. They go into file names and titles,
+         so a growing archive stays consistent instead of drifting into whatever each chat happened to
+         be called.</p>
+    </div>
+
+    <div class="feature">
+      <h3>A destination folder per format</h3>
+      <p>HTML, Markdown, plain text and PDF each get their own destination - Markdown into an Obsidian
+         vault, PDF into a work folder - so saved files land where you already work, with no moving
+         afterwards.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What it looks like</h2>
+    <p class="sub">A small widget on the chat page, and a settings window for everything else.</p>
+
+    <figure>
+      <img src="img/01-main.png" alt="ASA main window">
+      <figcaption>The main window. Pick your output formats and where each one goes.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="img/02-autorecovery.png" alt="Auto-recovery prompt on startup">
+      <figcaption>Auto-recovery. An unsaved session found on the next launch can be written out.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="img/03-settings.png" alt="Output settings">
+      <figcaption>File names are built from parts you choose, in the order you choose.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Free and paid</h2>
+    <p class="sub">The free edition has no time limit and no usage limit.</p>
+
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>&nbsp;</th><th>Free</th><th>Paid</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>One-click save, including capture</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+          <tr><td>HTML output, unlimited</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+          <tr><td>Title composition and save location</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+          <tr><td>Tags in file names</td><td class="no">Up to 3</td><td class="yes">Up to 50</td></tr>
+          <tr><td>Markdown, plain text and PDF output</td><td class="no">-</td><td class="yes">Yes</td></tr>
+          <tr><td>Auto-recovery</td><td class="no">-</td><td class="yes">Yes</td></tr>
+          <tr><td>Destination folder per format</td><td class="no">-</td><td class="yes">Yes</td></tr>
+          <tr><td>Sub-folders per chat type</td><td class="no">-</td><td class="yes">Yes</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">Paid editions are $6 each, or $14 for all three. One-time purchase, no subscription.
+       The two editions share the same Chrome extension, so switching later is just a reinstall.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Specifications</h2>
+    <ul class="specs">
+      <li><strong>Editions:</strong> ChatGPT, Claude and Gemini - one per service</li>
+      <li><strong>OS:</strong> Windows 10 / 11</li>
+      <li><strong>Requires:</strong> Google Chrome</li>
+      <li><strong>Output:</strong> HTML, plain text, Markdown, PDF - several at once</li>
+      <li><strong>Storage:</strong> your own device only; nothing is sent to a server</li>
+      <li><strong>Interface:</strong> English and Japanese</li>
+      <li><strong>Made of:</strong> a desktop application plus a Chrome extension from the Web Store</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="https://github.com/jellycotton/AI-Session-Archiver">Repository and free edition</a> ·
+      <a href="https://dialoguevolts.lemonsqueezy.com/">Store (English)</a> ·
+      <a href="https://jellycotton.booth.pm/items/8436423">BOOTH (Japanese)</a> ·
+      <a href="https://note.com/sane_swift272/n/n4992c5a55733">Article (Japanese)</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts. Contact: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
