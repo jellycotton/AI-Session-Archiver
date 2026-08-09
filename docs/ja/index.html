@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Session Archiver - ChatGPT・Claude・Gemini の会話を自分の PC に保存</title>
+<meta name="description" content="ChatGPT・Claude・Gemini の会話をワンクリックで自分の PC に保存する Windows アプリ。オートリカバリーで、閉じてしまった一時チャットのログも保存できます。無料版あり。">
+<link rel="icon" href="../img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Session Archiver">
+<meta property="og:description" content="ChatGPT・Claude・Gemini の会話をワンクリックで自分の PC に保存。Windows アプリ + Chrome 拡張。無料版あり。">
+<meta property="og:image" content="https://jellycotton.github.io/AI-Session-Archiver/img/ja/01-main.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.9 -apple-system,BlinkMacSystemFont,"Segoe UI",'Hiragino Sans','Noto Sans JP','Yu Gothic UI',sans-serif;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  .lang{padding:14px 0 0;text-align:right;font-size:.9rem}
+  .lang a{color:var(--muted);text-decoration:none;border:1px solid var(--line);
+          padding:5px 12px;border-radius:999px}
+
+  header{padding:56px 0 40px;text-align:center;border-bottom:1px solid var(--line)}
+  header img.logo{width:96px;margin:0 auto 20px}
+  h1{font-size:1.9rem;margin:0 0 12px;letter-spacing:-.01em}
+  .lede{font-size:1.1rem;color:var(--muted);max-width:34em;margin:0 auto 28px}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;
+       background:var(--accent);color:var(--accent-fg)}
+  .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .note{margin-top:14px;font-size:.9rem;color:var(--muted)}
+
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.3rem;margin:0 0 8px}
+  h3{font-size:1.05rem;margin:0 0 6px}
+  p{margin:0 0 16px}
+  .sub{color:var(--muted);margin:0 0 28px}
+
+  .feature{background:var(--card);border:1px solid var(--line);border-radius:10px;
+           padding:20px 22px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .feature p{margin:0;color:var(--muted)}
+
+  figure{margin:0 0 32px}
+  figure img{border:1px solid var(--line);border-radius:10px}
+  figcaption{color:var(--muted);font-size:.9rem;margin-top:10px}
+
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;min-width:460px;font-size:.95rem}
+  th,td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+  th{font-weight:600}
+  td.yes{color:var(--accent);font-weight:600}
+  td.no{color:var(--muted)}
+
+  ul.specs{margin:0;padding-left:1.2rem;color:var(--muted)}
+  ul.specs li{margin-bottom:6px}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="wrap lang"><a href="../index.html">English</a></div>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="../img/logo.png" alt="AI Session Archiver のロゴ">
+    <h1>AI Session Archiver</h1>
+    <p class="lede">ChatGPT・Claude・Gemini の会話を、ワンクリックで自分の PC に保存。</p>
+    <div class="cta">
+      <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">ダウンロード - 無料版</a>
+      <a class="btn secondary" href="https://jellycotton.booth.pm/items/8436423">購入 - BOOTH 760円</a>
+      <a class="btn secondary" href="https://dialoguevolts.lemonsqueezy.com/">Buy - Lemon Squeezy $6</a>
+    </div>
+    <p class="note">買い切り・月額なし。Windows 10 / 11 と Google Chrome が必要です。アカウント登録も、外部への送信もありません。</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>ASA ならではの 3 点</h2>
+    <p class="sub">保存も設定もすべて自分の PC の中で完結します。会話の内容が外部へ送られることはありません。</p>
+
+    <div class="feature">
+      <h3>オートリカバリー</h3>
+      <p>うっかり閉じてしまった一時チャット・シークレットチャットのログも、失わずに保存できます。
+         有効にしておくと会話中のログが端末に一時的に保持され、次回起動時に保存するか尋ねる画面が出ます。
+         オン / オフは設定で自由に切り替えられるので、残したい時だけ残せます。</p>
+    </div>
+
+    <div class="feature">
+      <h3>タグ</h3>
+      <p>よく使うタグを最大 50 個まで登録しておき、保存時に選ぶだけ。ファイル名と本文タイトルに付くので、
+         会話が増えても名前の付け方がぶれません。</p>
+    </div>
+
+    <div class="feature">
+      <h3>形式ごとの保存先</h3>
+      <p>HTML・Markdown・テキスト・PDF に、それぞれ別の保存先を指定できます。
+         Markdown は Obsidian の保管庫へ、PDF は仕事用フォルダへ、といった振り分けが保存と同時に済みます。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>画面</h2>
+    <p class="sub">チャット画面には小さな保存ボタンが出るだけ。細かい設定は本体側でまとめて行います。</p>
+
+    <figure>
+      <img src="../img/ja/01-main.png" alt="ASA のメイン画面">
+      <figcaption>メイン画面。出力する形式と、それぞれの保存先を選びます。</figcaption>
+    </figure>
+
+    <figure>
+      <img src="../img/ja/02-autorecovery.png" alt="起動時のオートリカバリー画面">
+      <figcaption>オートリカバリー。未保存の会話が見つかると、次回起動時に保存するか尋ねられます。</figcaption>
+    </figure>
+
+    <figure>
+      <img src="../img/ja/03-settings.png" alt="出力の詳細設定">
+      <figcaption>ファイル名は、使う要素と並び順を自分で決められます。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>無料版と有料版</h2>
+    <p class="sub">無料版に期間制限・回数制限はありません。</p>
+
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>&nbsp;</th><th>無料版</th><th>有料版</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>ワンクリック保存（キャプチャ含む）</td><td class="yes">○</td><td class="yes">○</td></tr>
+          <tr><td>HTML で保存（回数無制限）</td><td class="yes">○</td><td class="yes">○</td></tr>
+          <tr><td>タイトル構成・保存先の指定</td><td class="yes">○</td><td class="yes">○</td></tr>
+          <tr><td>ファイル名へのタグ付け</td><td class="no">3 個まで</td><td class="yes">50 個まで</td></tr>
+          <tr><td>Markdown・テキスト・PDF 出力</td><td class="no">-</td><td class="yes">○</td></tr>
+          <tr><td>オートリカバリー</td><td class="no">-</td><td class="yes">○</td></tr>
+          <tr><td>形式ごとの保存先</td><td class="no">-</td><td class="yes">○</td></tr>
+          <tr><td>チャット種類ごとのサブフォルダ</td><td class="no">-</td><td class="yes">○</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">有料版は 1 版 760 円、3 種セット 1,750 円。買い切りで、月額はかかりません。
+       無料版と有料版は同じ Chrome 拡張を使うため、後から切り替える場合も入れ替えるだけで済みます。</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>仕様</h2>
+    <ul class="specs">
+      <li><strong>ラインナップ:</strong> ChatGPT 版 / Claude 版 / Gemini 版（使うサービスに合わせて選びます）</li>
+      <li><strong>対応 OS:</strong> Windows 10 / 11</li>
+      <li><strong>必要環境:</strong> Google Chrome</li>
+      <li><strong>出力形式:</strong> HTML / テキスト / Markdown / PDF（同時出力可）</li>
+      <li><strong>保存先:</strong> 自分の端末のみ。クラウドへの送信はありません</li>
+      <li><strong>表示言語:</strong> 日本語 / 英語</li>
+      <li><strong>構成:</strong> デスクトップアプリ + Chrome 拡張（ウェブストア配布）</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="https://github.com/jellycotton/AI-Session-Archiver">GitHub（無料版の配布）</a> ・
+      <a href="https://jellycotton.booth.pm/items/8436423">BOOTH</a> ・
+      <a href="https://dialoguevolts.lemonsqueezy.com/">Lemon Squeezy</a> ・
+      <a href="https://note.com/sane_swift272/n/n4992c5a55733">note の紹介記事</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts　お問い合わせ: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
