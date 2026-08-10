@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to save a ChatGPT Temporary Chat (including after you closed it)</title>
+<meta name="description" content="Ways to save a ChatGPT Temporary Chat while the tab is open - print to PDF, copy-paste, export extensions - and what your options are once you have already closed it.">
+<link rel="icon" href="../img/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to save a ChatGPT Temporary Chat">
+<meta property="og:description" content="What works while the tab is open, and what is left once you have closed it.">
+<meta property="og:image" content="../img/logo.png">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  header{padding:48px 0 32px;border-bottom:1px solid var(--line)}
+  header img.logo{width:56px;margin:0 0 20px}
+  h1{font-size:1.85rem;margin:0 0 12px;letter-spacing:-.01em;line-height:1.35}
+  .lede{font-size:1.1rem;color:var(--muted);margin:0}
+
+  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  h2{font-size:1.3rem;margin:0 0 8px}
+  h3{font-size:1.05rem;margin:28px 0 6px}
+  p{margin:0 0 16px}
+  .sub{color:var(--muted);margin:0 0 24px}
+
+  ul{margin:0 0 16px;padding-left:1.2rem}
+  li{margin-bottom:8px}
+  ol{margin:0 0 16px;padding-left:1.3rem}
+
+  kbd{font:inherit;font-size:.9em;background:var(--card);border:1px solid var(--line);
+      border-radius:5px;padding:1px 7px}
+
+  .callout{background:var(--card);border:1px solid var(--line);border-radius:10px;
+           padding:18px 20px;margin:0 0 20px;box-shadow:var(--shadow)}
+  .callout p:last-child{margin:0}
+  .callout.plain{border-left:3px solid var(--accent)}
+
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 14px}
+  .btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;
+       background:var(--accent);color:var(--accent-fg)}
+  .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .note{margin:0;font-size:.9rem;color:var(--muted)}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem}
+  footer a{color:var(--muted)}
+
+  .back{padding:14px 0 0;font-size:.9rem}
+  .back a{color:var(--muted);text-decoration:none;border:1px solid var(--line);
+          padding:5px 12px;border-radius:999px}
+</style>
+</head>
+<body>
+
+<div class="wrap back"><a href="../index.html">&larr; AI Session Archiver</a></div>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="../img/logo.png" alt="AI Session Archiver logo">
+    <h1>How to save a ChatGPT Temporary Chat, including after you closed it</h1>
+    <p class="lede">Two very different problems, depending on whether the tab is still open.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p>Saving a Temporary Chat splits into two cases: the tab is still open, or it isn't.
+       If it's still open you have several options. If you already closed it, you have
+       almost none.</p>
+    <p>Skip to whichever one you're in.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>While the tab is still open</h2>
+    <p class="sub">Free options, easiest first.</p>
+
+    <h3>1. Print to PDF</h3>
+    <p><kbd>Ctrl</kbd> + <kbd>P</kbd>, then set the destination to &ldquo;Save as PDF&rdquo;.
+       Nothing to install. Long conversations sometimes get cut off and the layout can
+       break &mdash; code blocks suffer the most.</p>
+
+    <h3>2. Select all and copy</h3>
+    <p><kbd>Ctrl</kbd> + <kbd>A</kbd>, <kbd>Ctrl</kbd> + <kbd>C</kbd>, paste into a text
+       editor. Reliable, but you lose headings and code formatting.</p>
+
+    <h3>3. An export extension</h3>
+    <p>Search the Chrome Web Store for &ldquo;ChatGPT export&rdquo; and you'll find several
+       that write PDF or Markdown. Most are free and they're fine for ordinary chats.</p>
+
+    <div class="callout plain">
+      <p>One caveat: <strong>check that the one you pick works on a Temporary Chat.</strong>
+         Many of them read your conversation history, and a Temporary Chat is never written
+         to that history, so it can fall outside what they handle. Test it once before you
+         rely on it.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>After you have closed it</h2>
+    <p class="sub">The short version: you can't get it back.</p>
+
+    <p>A Temporary Chat exists specifically so that nothing is stored. There is no copy on
+       OpenAI's side to restore, so signing back in or digging through your history won't
+       surface it. This isn't like undeleting something &mdash; it was never saved in the
+       first place.</p>
+
+    <p>Which leaves one place a copy could exist: your own machine, if something was already
+       keeping one.</p>
+
+    <p>That's the gap I built <strong>AI Session Archiver (ASA)</strong> to cover &mdash;
+       full disclosure, it's my tool. It's a Windows app plus a Chrome extension.</p>
+
+    <p>With auto-recovery switched on, whatever is on screen in a Temporary Chat is held on
+       your own PC while the tab is open. Close the tab by accident and the next launch of
+       ASA lets you save it to a file.</p>
+
+    <div class="callout">
+      <p>Being straight about the limits:</p>
+      <ul>
+        <li><strong>Auto-recovery is in the paid edition</strong> ($6 one-time). The free
+            edition does not include it</li>
+        <li><strong>It's off by default</strong>, even in the paid edition. You switch it on
+            in settings. A feature whose whole purpose is to leave no history can't quietly
+            start recording for you</li>
+        <li>A chat you closed before installing ASA is gone. Nothing was keeping a copy</li>
+      </ul>
+      <p>So it insures you against the next time. It cannot recover the one you just lost.
+         Sorry.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Using it</h2>
+    <p class="sub">The free edition is enough to try the saving itself &mdash; no time limit,
+       no cap on how many conversations you save.</p>
+
+    <ol>
+      <li>Download the edition for the service you use (ChatGPT, Claude or Gemini)</li>
+      <li>Unzip it and run <code>Setup_ChatGPT_ASA.vbs</code> inside</li>
+      <li>Follow the prompts to add the Chrome extension</li>
+      <li>Reload ChatGPT &mdash; a small save button appears near the composer</li>
+    </ol>
+
+    <p>Press it on any conversation you want to keep, Temporary Chats included. That much
+       is free.</p>
+
+    <p>For rescue after a close you need the paid edition, and you turn auto-recovery on in
+       settings afterwards. The extension is the same either way, so switching means
+       replacing the app only.</p>
+
+    <div class="cta">
+      <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">Download - Free edition</a>
+      <a class="btn secondary" href="../index.html">What ASA does</a>
+    </div>
+    <p class="note">Besides auto-recovery, the paid edition adds Markdown, plain text and PDF
+       output, per-chat-type folders, and 50 filename tags instead of 3. $6 per edition or
+       $14 for all three, one-time &mdash; there's no subscription.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Summary</h2>
+    <ul>
+      <li><strong>Still open:</strong> print to PDF, copy-paste, or a free export extension
+          &mdash; just confirm it handles Temporary Chats</li>
+      <li><strong>Already closed:</strong> nothing restores it. The only thing that helps is
+          having something on your own machine keeping a copy before it happens</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="../index.html">AI Session Archiver</a> ·
+      <a href="https://github.com/jellycotton/AI-Session-Archiver">Repository and free edition</a> ·
+      <a href="https://dialoguevolts.lemonsqueezy.com/">Store (English)</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts. Contact: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
