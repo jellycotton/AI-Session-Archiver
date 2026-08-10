@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to save a ChatGPT Temporary Chat (including after you closed it)</title>
-<meta name="description" content="Ways to save a ChatGPT Temporary Chat while the tab is open - print to PDF, copy-paste, export extensions - and what your options are once you have already closed it.">
+<title>How to save a temporary chat in ChatGPT, Gemini or Claude (including after you closed it)</title>
+<meta name="description" content="Ways to save a temporary chat in ChatGPT, Gemini or Claude while the tab is open - print to PDF, copy-paste, export extensions - and what your options are once you have already closed it.">
 <link rel="icon" href="../img/logo.png">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How to save a ChatGPT Temporary Chat">
+<meta property="og:title" content="How to save a temporary chat in ChatGPT, Gemini or Claude">
 <meta property="og:description" content="What works while the tab is open, and what is left once you have closed it.">
 <meta property="og:image" content="../img/logo.png">
 <meta name="twitter:card" content="summary">
@@ -72,17 +72,21 @@
 <header>
   <div class="wrap">
     <img class="logo" src="../img/logo.png" alt="AI Session Archiver logo">
-    <h1>How to save a ChatGPT Temporary Chat, including after you closed it</h1>
+    <h1>How to save a temporary chat in ChatGPT, Gemini or Claude, including after you
+        closed it</h1>
     <p class="lede">Two very different problems, depending on whether the tab is still open.</p>
   </div>
 </header>
 
 <section>
   <div class="wrap">
-    <p>Saving a Temporary Chat splits into two cases: the tab is still open, or it isn't.
+    <p>Saving a temporary chat splits into two cases: the tab is still open, or it isn't.
        If it's still open you have several options. If you already closed it, it comes down
        to whether anything on your own machine was keeping a copy.</p>
     <p>Skip to whichever one you're in.</p>
+    <p class="note">ChatGPT and Gemini both call this a <strong>Temporary Chat</strong>.
+       Claude calls the same thing an <strong>Incognito chat</strong> &mdash; the ghost icon
+       in the chat header. Everything below applies to all three.</p>
   </div>
 </section>
 
@@ -101,12 +105,13 @@
        editor. Reliable, but you lose headings and code formatting.</p>
 
     <h3>3. An export extension</h3>
-    <p>Search the Chrome Web Store for &ldquo;ChatGPT export&rdquo; and you'll find several
+    <p>Search the Chrome Web Store for &ldquo;ChatGPT export&rdquo; (or your own service) and
+       you'll find several
        that write PDF or Markdown. Most are free and they're fine for ordinary chats.</p>
 
     <div class="callout plain">
-      <p>One caveat: <strong>check that the one you pick works on a Temporary Chat.</strong>
-         Many of them read your conversation history, and a Temporary Chat is never written
+      <p>One caveat: <strong>check that the one you pick works on a temporary chat.</strong>
+         Many of them read your conversation history, and a temporary chat is never written
          to that history, so it can fall outside what they handle. Test it once before you
          rely on it.</p>
     </div>
@@ -116,13 +121,13 @@
 <section>
   <div class="wrap">
     <h2>After you have closed it</h2>
-    <p class="sub">Nothing on OpenAI's side survives. The question is whether anything on
-       your machine does.</p>
+    <p class="sub">There is nothing to reopen on the service's side. The question is whether
+       anything on your machine survived.</p>
 
-    <p>A Temporary Chat exists specifically so that nothing is stored. There is no copy on
-       OpenAI's side to restore, so signing back in or digging through your history won't
-       surface it. This isn't like undeleting something &mdash; it was never saved in the
-       first place.</p>
+    <p>A temporary chat exists specifically so that it never enters your history. Once it is
+       closed it cannot be reopened &mdash; signing back in or digging through your history
+       won't surface it, on any of the three. This isn't like undeleting something; there is
+       no copy for you to restore.</p>
 
     <p>Which leaves one place a copy could exist: your own machine, if something was already
        keeping one.</p>
@@ -167,13 +172,13 @@
        no cap on how many conversations you save.</p>
 
     <ol>
-      <li>Download the edition for the service you use (ChatGPT, Claude or Gemini)</li>
-      <li>Unzip it and run <code>Setup_ChatGPT_ASA.vbs</code> inside</li>
+      <li>Download the edition for the service you use (ChatGPT, Gemini or Claude)</li>
+      <li>Unzip it and run the <code>Setup_..._ASA.vbs</code> inside</li>
       <li>Follow the prompts to add the Chrome extension</li>
-      <li>Reload ChatGPT &mdash; a small save button appears near the composer</li>
+      <li>Reload the chat page &mdash; a small save button appears near the composer</li>
     </ol>
 
-    <p>Press it on any conversation you want to keep, Temporary Chats included. That much
+    <p>Press it on any conversation you want to keep, temporary and incognito chats included. That much
        is free.</p>
 
     <p>For rescue after a close you need the paid edition, and you turn auto-recovery on in
@@ -195,11 +200,11 @@
     <h2>Summary</h2>
     <ul>
       <li><strong>Still open:</strong> print to PDF, copy-paste, or a free export extension
-          &mdash; just confirm it handles Temporary Chats</li>
-      <li><strong>Already closed:</strong> nothing on OpenAI's side restores it. If a save
-          was in progress, ASA's dialog is still open and still works. Otherwise the only
-          thing that helps is having something on your own machine that was already keeping
-          a copy</li>
+          &mdash; just confirm it handles temporary chats</li>
+      <li><strong>Already closed:</strong> there is nothing on the service's side to
+          reopen. If a save was in progress, ASA's dialog is still open and still works.
+          Otherwise the only thing that helps is having something on your own machine that
+          was already keeping a copy</li>
     </ul>
   </div>
 </section>
