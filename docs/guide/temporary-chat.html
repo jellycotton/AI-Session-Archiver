@@ -131,33 +131,42 @@
        keeping one.</p>
 
     <p>That's the gap I built <strong>AI Session Archiver (ASA)</strong> to cover: a Windows
-       app plus a Chrome extension. Closing the tab is not the point of no return it looks
-       like.</p>
+       app plus a Chrome extension. It doesn't do this on its own, though. You arm it first.</p>
 
-    <h3>If you had already pressed save</h3>
-    <p>ASA's save dialog is a desktop window, not part of the web page. Closing the tab
-       doesn't close it. Go finish the save there &mdash; the conversation is already out of
-       the browser and in the app.</p>
+    <h3>Arming it: two steps</h3>
+    <ol>
+      <li>Turn <strong>auto-recovery</strong> on in settings. It ships off, and it's in the
+          paid edition</li>
+      <li>In the chat you care about, start <strong>Capture mode</strong> &mdash; the
+          &#9673; button on the widget</li>
+    </ol>
+    <p>While capture is running, every message is appended to a file on your own PC as it
+       arrives, and ASA shows a capture window counting what it has taken.</p>
 
-    <h3>If that dialog is gone too</h3>
-    <p>With auto-recovery switched on, ASA holds the conversation on your own PC as it
-       arrives, so a copy survives closing the tab and closing the dialog alike. The next
-       time you start ASA, it offers to save what was left behind.</p>
-    <p>This is also what covers the case where you never pressed save at all: the tab is
-       simply gone, and the copy on your machine is all that's left.</p>
+    <h3>What survives</h3>
+    <ul>
+      <li><strong>Closing the browser tab doesn't close that window.</strong> It belongs to
+          the desktop app, not the page. Press Save there and everything up to that point
+          becomes a file</li>
+      <li><strong>Closing that window with &times; keeps the held copy.</strong> The next
+          time you start ASA, it offers to save it</li>
+      <li><strong>Pressing Cancel deletes it.</strong> Cancel is read as &ldquo;I don't want
+          this one&rdquo;. If you only want the window out of the way, use &times;</li>
+    </ul>
 
     <div class="callout">
       <p>Being straight about the limits:</p>
       <ul>
         <li><strong>Auto-recovery is in the paid edition</strong> ($6 one-time). The free
             edition does not include it</li>
-        <li><strong>It's off by default</strong>, even in the paid edition. You switch it on
-            in settings. A feature whose whole purpose is to leave no history can't quietly
-            start recording for you</li>
-        <li>A chat you closed before installing ASA is gone. Nothing was keeping a copy</li>
+        <li><strong>It's off by default</strong>, even in the paid edition. A feature whose
+            whole purpose is to leave no history can't quietly start recording for you</li>
+        <li><strong>A chat you never started Capture mode on cannot be rescued.</strong>
+            Nothing was keeping a copy of it</li>
+        <li>A chat you closed before installing ASA is gone for the same reason</li>
       </ul>
-      <p>So if ASA was already running with auto-recovery on, check it before you give up.
-         If it wasn't, this insures you against the next time rather than recovering the one
+      <p>So if you had both switched on for the chat you lost, open ASA before you give up.
+         If you didn't, this insures you against the next time rather than recovering the one
          you just lost. Sorry.</p>
     </div>
   </div>
@@ -174,14 +183,15 @@
       <li>Unzip it and run the <code>Setup_..._ASA.vbs</code> inside</li>
       <li>Follow the prompts to add the Chrome extension</li>
       <li>Reload the chat page &mdash; a small save button appears near the composer</li>
+      <li>For rescue after a close: turn on auto-recovery in settings, then start Capture
+          mode (&#9673;) in the chat you want protected</li>
     </ol>
 
     <p>Press it on any conversation you want to keep, temporary and incognito chats included. That much
        is free.</p>
 
-    <p>For rescue after a close you need the paid edition, and you turn auto-recovery on in
-       settings afterwards. The extension is the same either way, so switching means
-       replacing the app only.</p>
+    <p>Steps 1 to 4 are the free edition. Step 5 needs the paid one. The extension is the
+       same either way, so switching means replacing the app only.</p>
 
     <div class="cta">
       <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">Download - Free edition</a>
@@ -199,10 +209,10 @@
     <ul>
       <li><strong>Still open:</strong> print to PDF, copy-paste, or a free export extension
           &mdash; just confirm it handles temporary chats</li>
-      <li><strong>Already closed:</strong> the service can't give it back. If a save was in
-          progress, ASA's dialog is still open and still works. Otherwise the only thing
-          that helps is having something on your own machine that was already keeping a
-          copy</li>
+      <li><strong>Already closed:</strong> the service can't give it back. If Capture mode
+          was running, ASA's capture window is still open and still works &mdash; and even
+          dismissing it with &times; keeps the copy for the next launch. Without capture
+          running, nothing was keeping one</li>
     </ul>
   </div>
 </section>
