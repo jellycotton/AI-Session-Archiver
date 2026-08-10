@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一時チャットを保存する方法（ChatGPT / Gemini / Claude）— 閉じてしまった後の手も含めて</title>
+<meta name="description" content="ChatGPT・Gemini・Claude の一時チャットを、開いているうちに保存する方法（印刷でPDF・コピペ・拡張機能）と、閉じてしまった後に残された手段をまとめます。">
+<link rel="icon" href="../../img/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一時チャットを保存する方法（ChatGPT / Gemini / Claude）">
+<meta property="og:description" content="開いているうちにできることと、閉じてしまった後に残るもの。">
+<meta property="og:image" content="../../img/logo.png">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+            "Hiragino Sans","Noto Sans JP","Yu Gothic UI",Meiryo,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  header{padding:48px 0 32px;border-bottom:1px solid var(--line)}
+  header img.logo{width:56px;margin:0 0 20px}
+  h1{font-size:1.7rem;margin:0 0 12px;letter-spacing:-.01em;line-height:1.45}
+  .lede{font-size:1.05rem;color:var(--muted);margin:0}
+
+  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  h2{font-size:1.25rem;margin:0 0 8px}
+  h3{font-size:1.02rem;margin:28px 0 6px}
+  p{margin:0 0 16px}
+  .sub{color:var(--muted);margin:0 0 24px}
+
+  ul{margin:0 0 16px;padding-left:1.2rem}
+  li{margin-bottom:8px}
+  ol{margin:0 0 16px;padding-left:1.3rem}
+
+  kbd{font:inherit;font-size:.9em;background:var(--card);border:1px solid var(--line);
+      border-radius:5px;padding:1px 7px}
+
+  .callout{background:var(--card);border:1px solid var(--line);border-radius:10px;
+           padding:18px 20px;margin:0 0 20px;box-shadow:var(--shadow)}
+  .callout p:last-child{margin:0}
+  .callout.plain{border-left:3px solid var(--accent)}
+
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 14px}
+  .btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;
+       background:var(--accent);color:var(--accent-fg)}
+  .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .note{margin:0;font-size:.9rem;color:var(--muted)}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem}
+  footer a{color:var(--muted)}
+
+  .navrow{display:flex;justify-content:space-between;align-items:center;gap:12px;
+          padding:14px 0 0;font-size:.9rem}
+  .navrow a{color:var(--muted);text-decoration:none;border:1px solid var(--line);
+            padding:5px 12px;border-radius:999px}
+</style>
+</head>
+<body>
+
+<div class="wrap navrow">
+  <a href="../index.html">&larr; AI Session Archiver</a>
+  <a href="../../guide/temporary-chat.html">English</a>
+</div>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="../../img/logo.png" alt="AI Session Archiver のロゴ">
+    <h1>一時チャットを保存する方法 — 閉じてしまった後の手も含めて</h1>
+    <p class="lede">タブが開いたままか、もう閉じたか。この 2 つで話がまるで変わります。</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p>一時チャットの保存は、2 つの場合に分かれます。まだ開いているなら手はいくつもあります。
+       もう閉じてしまった場合は、自分のパソコンの中に控えが残っていたかどうかで決まります。</p>
+    <p>自分がどちらかで、読む場所を選んでください。</p>
+    <p class="note">ChatGPT と Gemini は「一時チャット」、Claude は「シークレットチャット」と
+       呼びます（チャット画面上部のゴーストのアイコン）。以下は 3 つとも同じです。</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>まだ閉じていない場合</h2>
+    <p class="sub">無料でできる方法を、手軽な順に並べます。</p>
+
+    <h3>1. 印刷機能で PDF にする</h3>
+    <p><kbd>Ctrl</kbd> + <kbd>P</kbd> を押して、送信先を「PDF に保存」にします。何も入れずに
+       済むのが利点です。ただし長い会話だと途中で切れたり、レイアウトが崩れたりします。
+       コードの部分は特に崩れやすいです。</p>
+
+    <h3>2. 全部選択してコピーする</h3>
+    <p><kbd>Ctrl</kbd> + <kbd>A</kbd> → <kbd>Ctrl</kbd> + <kbd>C</kbd> で、メモ帳などに
+       貼ります。確実ですが、見出しやコードの体裁は失われます。</p>
+
+    <h3>3. 保存用の拡張機能を入れる</h3>
+    <p>Chrome ウェブストアで「ChatGPT エクスポート」などと探すと、PDF や Markdown で
+       書き出せるものがいくつも見つかります。無料のものが多く、普通の会話の保存なら
+       これで十分です。</p>
+
+    <div class="callout plain">
+      <p>ひとつ注意点があります。<strong>選んだものが一時チャットで動くかどうかは、事前に
+         確かめてください。</strong>これらの多くは会話の履歴を読みに行く作りで、一時チャットは
+         その履歴に残らないため、対象外になることがあります。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>閉じてしまった後</h2>
+    <p class="sub">結論から書きます。サービス側からは取り戻せません。</p>
+
+    <p>一時チャットは履歴に残らず、閉じたら開き直す方法がありません。ログインし直しても
+       出てきません。「削除したファイルを復元する」のとは話が違います。これは 3 サービス
+       とも同じです。</p>
+
+    <p>つまり、残っている可能性があるのは<strong>自分のパソコンの中だけ</strong>です。</p>
+
+    <p>ここを埋めるために作ったのが <strong>AI Session Archiver（ASA）</strong> という
+       Windows 用のソフトです。</p>
+
+    <h3>使うための 2 段構え</h3>
+    <ol>
+      <li>設定で<strong>オートリカバリー</strong>をオンにする</li>
+      <li>残したいチャットで<strong>キャプチャモード</strong>（ウィジェットの &#9673; ボタン）
+          を開始する</li>
+    </ol>
+    <p>キャプチャ中は、発言が届くたびに自分のパソコンの中のファイルへ 1 行ずつ書き足されます。
+       同時に、取得した件数が増えていくキャプチャ中の画面が出ます。</p>
+
+    <h3>何が生き残るか</h3>
+    <ul>
+      <li><strong>ブラウザのタブを閉じても、この画面は消えません。</strong>ブラウザではなく
+          パソコン側の窓だからです。そこで「保存」を押せば、そこまでの会話がファイルに
+          なります</li>
+      <li><strong>その画面を &times; で閉じても、控えは残ります。</strong>次に ASA を
+          起動したときに、保存するか尋ねられます</li>
+      <li><strong>「キャンセル」を押すと控えは消えます。</strong>「これは要らない」という
+          意思表示として扱うためです</li>
+    </ul>
+
+    <div class="callout">
+      <p>正直に書いておくと、万能ではありません。</p>
+      <ul>
+        <li><strong>オートリカバリーは有料版（買い切り 760 円）の機能です。</strong>
+            無料版には入っていません</li>
+        <li><strong>既定ではオフです。</strong>一時チャットは履歴を残さないためのモードなので、
+            勝手に保存しないためです</li>
+        <li><strong>キャプチャモードを開始していなかった会話は救えません。</strong>
+            どこにも控えが取られていないからです</li>
+        <li>ASA を入れる前に閉じた会話も、同じ理由で救えません</li>
+      </ul>
+      <p>失ったチャットで 2 つとも有効にしていたなら、諦める前に ASA を起動して確かめて
+         ください。そうでない場合は、次からの備えにはなりますが、今の 1 件を取り戻す方法は
+         残念ながらありません。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>使い方</h2>
+    <p class="sub">保存そのものの使い勝手は、無料版で確かめられます。期間の制限も、保存回数の
+       制限もありません。</p>
+
+    <ol>
+      <li>配布ページから、使っているサービスの版をダウンロードします（ChatGPT / Gemini / Claude）</li>
+      <li>zip を展開して、中の <code>Setup_（サービス名）_ASA.vbs</code> を実行します</li>
+      <li>画面の案内どおりに Chrome の拡張機能を追加します</li>
+      <li>チャットの画面を開き直すと、入力欄のそばに小さな保存ボタンが出ます</li>
+      <li>閉じた後の救出まで使う場合は、設定でオートリカバリーをオンにし、残したいチャットで
+          キャプチャモード（&#9673;）を開始します</li>
+    </ol>
+
+    <p>1〜4 は無料版でできます。5 は有料版が必要です。拡張機能は無料版と共通なので、
+       切り替えるときに入れ替えるのは本体だけです。</p>
+
+    <div class="cta">
+      <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">ダウンロード - 無料版</a>
+      <a class="btn secondary" href="../index.html">ASA について</a>
+    </div>
+    <p class="note">有料版はオートリカバリーのほかに、Markdown・テキスト・PDF での保存、
+       チャットの種類ごとのフォルダ分け、ファイル名に使えるタグ 50 個（無料版は 3 個）が
+       付きます。買い切り 760 円で、月額料金はありません。</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>まとめ</h2>
+    <ul>
+      <li><strong>まだ開いている場合</strong>: 印刷で PDF・コピペ・無料の拡張機能で足ります。
+          ただし一時チャットで動くかは事前に確認を</li>
+      <li><strong>もう閉じた場合</strong>: サービス側からは取り戻せません。キャプチャモードが
+          動いていたなら ASA の画面がまだ開いていて使えますし、&times; で閉じた後でも控えは
+          次回起動時まで残ります。キャプチャしていなかった場合は、どこにも控えがありません</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="../index.html">AI Session Archiver</a> ・
+      <a href="https://github.com/jellycotton/AI-Session-Archiver">GitHub（無料版の配布）</a> ・
+      <a href="https://jellycotton.booth.pm/items/8436423">BOOTH</a> ・
+      <a href="https://note.com/sane_swift272/n/n4992c5a55733">note の紹介記事</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts　お問い合わせ: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
