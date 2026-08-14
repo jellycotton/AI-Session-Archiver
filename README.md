@@ -136,6 +136,10 @@ The Free Edition and the paid edition share the same browser extension and setup
 
 Detailed steps are provided in the bundled manual (README).
 
+## Changelog
+
+Version history for both the Windows app and the Chrome extension: [CHANGELOG.md](CHANGELOG.md)
+
 ## Notes
 
 - Due to specification changes on the AI service side, the tool may stop working without notice.
@@ -295,6 +299,10 @@ AI Session Archiver には、無料版もあります。HTML保存に機能を�
 4. ガイドに従って Chrome ウェブストアから拡張機能を追加
 
 詳しい手順は同梱のマニュアル（README）に記載しています。
+
+## 更新履歴
+
+本体アプリと Chrome 拡張機能の更新履歴は [CHANGELOG.md](CHANGELOG.md) をご覧ください。
 
 ## 注意事項
 
