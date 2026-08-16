@@ -50,6 +50,14 @@ AI Session Archiver（ASA）の更新履歴です。ASA は **Windows アプリ�
 
 「ASA Bridge for ChatGPT / Claude / Gemini」の履歴です。バージョンは Chrome の「拡張機能」ページで確認できます。
 
+### 1.0.5.4（2026-08-14）
+
+**3 版共通**
+
+- 会話の一部が保存物から丸ごと抜け落ちることがある不具合を修正しました
+  - ChatGPT では、AI が考え込んでから画像を返した場合（「Worked for 1m 38s」などが出る形）に、その回答が発言ごと消えていました
+  - Claude / Gemini では、取り込めなかった発言を黙って捨てていました。捨てた件数を記録に残すようにしたので、今後同じことが起きた時に気づけます
+
 ### 1.0.5.3（2026-07-09）
 
 **3 版共通**
@@ -145,6 +153,14 @@ The same for all three editions (ChatGPT / Claude / Gemini).
 ## Chrome Extension
 
 For "ASA Bridge for ChatGPT / Claude / Gemini". You can check the installed version on Chrome's Extensions page.
+
+### 1.0.5.4 (2026-08-14)
+
+**All three editions**
+
+- Fixed parts of a conversation going missing from the saved file
+  - On ChatGPT, an answer that arrived after a spell of thinking ("Worked for 1m 38s" and the like) and consisted only of images was dropped along with its whole turn
+  - On Claude and Gemini, messages that could not be read were discarded silently. The count is now recorded, so the next occurrence is visible
 
 ### 1.0.5.3 (2026-07-09)
 
