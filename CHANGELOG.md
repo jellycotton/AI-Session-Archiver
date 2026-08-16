@@ -14,6 +14,12 @@ AI Session Archiver（ASA）の更新履歴です。ASA は **Windows アプリ�
 
 3 つの版（ChatGPT 版 / Claude 版 / Gemini 版）で共通の内容です。
 
+### v1.0.5.13（2026-08-16）
+
+- 更新のお知らせに「GitHub」の入手先を追加しました。これまではストア（BOOTH / Lemon Squeezy）の購入履歴しか出ず、GitHub から入れた方の行き先がありませんでした
+  - このお知らせを描くのは受け取る側のバージョンです。GitHub のボタンが出るのは、このバージョンを入れたうえで次の更新を受け取った時からです
+- 更新の確認が途中で失敗した時に、原因が記録として残るようにしました（これまでは何も残さず終了していました）
+
 ### v1.0.5.12（2026-08-16）
 
 - PDF で **太字が反映されない**不具合を修正しました（記号がそのまま消えていました）
@@ -117,6 +123,12 @@ Release history for AI Session Archiver (ASA). ASA has two parts — the **Windo
 ## Windows App
 
 The same for all three editions (ChatGPT / Claude / Gemini).
+
+### v1.0.5.13 (2026-08-16)
+
+- The update notice now offers GitHub alongside the stores. It previously listed only BOOTH and Lemon Squeezy purchase histories, which left anyone who installed from GitHub without a destination
+  - The notice is drawn by the version that receives it, so the GitHub button appears once you are on this version and the next update arrives
+- When the update check fails part way through, the reason is now written to a log instead of the check ending silently
 
 ### v1.0.5.12 (2026-08-16)
 
