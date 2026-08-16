@@ -7,5 +7,6 @@
   "summary_ja": "新しいバージョンが公開されました。追加料金なしで更新できます。",
   "summary_en": "A new version has been released. Updating is free.",
   "booth_url": "https://accounts.booth.pm/library",
-  "lemonsqueezy_url": "https://app.lemonsqueezy.com/my-orders"
+  "lemonsqueezy_url": "https://app.lemonsqueezy.com/my-orders",
+  "github_url": "https://github.com/jellycotton/AI-Session-Archiver/releases/latest"
 }
