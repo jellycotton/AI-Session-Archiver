@@ -14,6 +14,17 @@ AI Session Archiver（ASA）の更新履歴です。ASA は **Windows アプリ�
 
 3 つの版（ChatGPT 版 / Claude 版 / Gemini 版）で共通の内容です。
 
+### v1.0.5.12（2026-08-16）
+
+- PDF で **太字が反映されない**不具合を修正しました（記号がそのまま消えていました）
+- PDF で、自分が添付した画像が画像として描かれるようになりました（以前は画像を表す長い文字列が本文に出ることがありました）
+- 引用（黒板のような縦線が付く部分）の表示を整えました
+  - 縦線が行ごとに途切れていたのを、まとまりごとの 1 本にしました
+  - 縦線が見出しの 1 文字目に重なる問題を解消しました
+  - 引用の文字色が薄すぎて読みにくかったのを、本文と同じ濃さにしました（HTML / PDF 共通）
+- 段落の途中に余分な改行が入ることがあったのを修正しました
+- AI が生成した画像を縦に並べて表示するようにしました（横並びで切れることがありました）
+
 ### v1.0.5.11（2026-08-11）
 
 - セットアップの案内文を整理しました（配布版では行われない「依存関係のインストール」の記載を削除し、確認画面を 1 つにまとめました）
@@ -98,6 +109,17 @@ Release history for AI Session Archiver (ASA). ASA has two parts — the **Windo
 ## Windows App
 
 The same for all three editions (ChatGPT / Claude / Gemini).
+
+### v1.0.5.12 (2026-08-16)
+
+- Fixed bold text being dropped from PDF output (the markers simply vanished)
+- Images you attached are now drawn as images in PDF output; previously a long string standing in for the image could appear in the body text
+- Tidied up how quotes are drawn
+  - The rule beside a quote is now one line per block instead of one per line of text
+  - The rule no longer runs through the first character of a heading
+  - Quoted text was too faint to read comfortably and now matches the body colour (HTML and PDF)
+- Fixed a stray line break appearing in the middle of a paragraph
+- AI-generated images are now stacked vertically; side by side they could be cropped
 
 ### v1.0.5.11 (2026-08-11)
 
