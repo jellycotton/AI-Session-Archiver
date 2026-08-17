@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>更新履歴 - AI Session Archiver</title>
+<meta name="description" content="AI Session Archiver の更新履歴。Windows アプリ本体と Chrome 拡張機能について、バージョンごとの変更点を掲載しています。">
+<meta name="google-site-verification" content="ik6IVrvhO9s1g4Wbab78NyYq04ZM6bF3-BrZLDluVrg">
+<link rel="canonical" href="https://jellycotton.github.io/AI-Session-Archiver/ja/changelog.html">
+<link rel="alternate" hreflang="en" href="https://jellycotton.github.io/AI-Session-Archiver/changelog.html">
+<link rel="alternate" hreflang="ja" href="https://jellycotton.github.io/AI-Session-Archiver/ja/changelog.html">
+<link rel="alternate" hreflang="x-default" href="https://jellycotton.github.io/AI-Session-Archiver/changelog.html">
+<link rel="icon" href="../img/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Session Archiver - 更新履歴">
+<meta property="og:description" content="AI Session Archiver の更新履歴。Windows アプリ本体と Chrome 拡張機能について、バージョンごとの変更点を掲載しています。">
+<meta property="og:image" content="https://jellycotton.github.io/AI-Session-Archiver/img/logo.png">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  header{padding:48px 0 32px;border-bottom:1px solid var(--line)}
+  header img.logo{width:56px;margin:0 0 20px}
+  h1{font-size:1.85rem;margin:0 0 12px;letter-spacing:-.01em;line-height:1.35}
+  .lede{font-size:1.1rem;color:var(--muted);margin:0}
+
+  section{padding:40px 0}
+  h2{font-size:1.3rem;margin:0 0 8px}
+  h3{font-size:1.05rem;margin:32px 0 6px}
+  p{margin:0 0 16px}
+
+  ul{margin:0 0 16px;padding-left:1.2rem}
+  li{margin-bottom:8px}
+  ul ul{margin:8px 0 0}
+  code{font-size:.92em;background:var(--card);border:1px solid var(--line);
+       border-radius:5px;padding:1px 6px}
+  hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  footer a{color:var(--muted)}
+
+  .navrow{display:flex;justify-content:space-between;align-items:center;gap:12px;
+          padding:14px 0 0;font-size:.9rem}
+  .navrow a{color:var(--muted);text-decoration:none;border:1px solid var(--line);
+            padding:5px 12px;border-radius:999px}
+</style>
+</head>
+<body>
+
+<div class="wrap navrow">
+  <a href="index.html">&larr; AI Session Archiver</a>
+  <a href="../changelog.html">English</a>
+</div>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="../img/logo.png" alt="AI Session Archiver logo">
+    <h1>更新履歴</h1>
+    <p class="lede">AI Session Archiver（ASA）の更新履歴です。ASA は Windows アプリ本体と Chrome 拡張機能の 2 つで動くため、それぞれ分けて記載しています。バージョン番号も別々に進みます。</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <ul>
+    <li><strong>本体</strong>：ストア（BOOTH / Lemon Squeezy）または GitHub の配布ページから入れ替えて更新します。</li>
+    <li><strong>拡張機能</strong>：Chrome ウェブストアから自動で更新されます。手動の操作は不要です。</li>
+    </ul>
+    <hr>
+    <h2>本体アプリ（Windows）</h2>
+    <p>3 つの版（ChatGPT 版 / Claude 版 / Gemini 版）で共通の内容です。</p>
+    <h3>v1.0.5.13（2026-08-16）</h3>
+    <ul>
+    <li>更新のお知らせに「GitHub」の入手先を追加しました。これまではストア（BOOTH / Lemon Squeezy）の購入履歴しか出ず、GitHub から入れた方の行き先がありませんでした<ul>
+    <li>このお知らせを描くのは受け取る側のバージョンです。GitHub のボタンが出るのは、このバージョンを入れたうえで次の更新を受け取った時からです</li>
+    </ul>
+    </li>
+    <li>更新の確認が途中で失敗した時に、原因が記録として残るようにしました（これまでは何も残さず終了していました）</li>
+    </ul>
+    <h3>v1.0.5.12（2026-08-16）</h3>
+    <ul>
+    <li>PDF で <strong>太字が反映されない</strong>不具合を修正しました（記号がそのまま消えていました）</li>
+    <li>PDF で、自分が添付した画像が画像として描かれるようになりました（以前は画像を表す長い文字列が本文に出ることがありました）</li>
+    <li>引用（黒板のような縦線が付く部分）の表示を整えました<ul>
+    <li>縦線が行ごとに途切れていたのを、まとまりごとの 1 本にしました</li>
+    <li>縦線が見出しの 1 文字目に重なる問題を解消しました</li>
+    <li>引用の文字色が薄すぎて読みにくかったのを、本文と同じ濃さにしました（HTML / PDF 共通）</li>
+    </ul>
+    </li>
+    <li>段落の途中に余分な改行が入ることがあったのを修正しました</li>
+    <li>AI が生成した画像を縦に並べて表示するようにしました（横並びで切れることがありました）</li>
+    </ul>
+    <h3>v1.0.5.11（2026-08-11）</h3>
+    <ul>
+    <li>セットアップの案内文を整理しました（配布版では行われない「依存関係のインストール」の記載を削除し、確認画面を 1 つにまとめました）</li>
+    <li>完了画面に、すでに拡張機能を導入済みの場合はそのまま終了してよいことを明記しました</li>
+    </ul>
+    <h3>v1.0.5.10（2026-08-09）</h3>
+    <ul>
+    <li>タグの並び順が正しく保存されなかった不具合の修正</li>
+    </ul>
+    <h3>v1.0.5.9（2026-08-09）</h3>
+    <ul>
+    <li>更新（新しいバージョンへの入れ替え）時に、タグや保存設定がそのまま引き継がれるようになりました</li>
+    <li>既定の保存先をアプリフォルダの外に変更しました（更新やアンインストール時に保存済みの会話が巻き込まれないように）</li>
+    <li>zip を同名フォルダに展開すると二重フォルダになる問題を防ぐため、展開フォルダ名にバージョンを含めました</li>
+    <li>セットアップ完了画面と設定画面に、現在のバージョンを表示するようにしました</li>
+    <li>リアルタイムキャプチャ中の小窓の幅が伸びていく問題を修正しました</li>
+    </ul>
+    <p>（これより前のバージョンの履歴は記録していません）</p>
+    <hr>
+    <h2>Chrome 拡張機能</h2>
+    <p>「ASA Bridge for ChatGPT / Claude / Gemini」の履歴です。バージョンは Chrome の「拡張機能」ページで確認できます。</p>
+    <h3>1.0.5.4（2026-08-14）</h3>
+    <p><strong>3 版共通</strong></p>
+    <ul>
+    <li>会話の一部が保存物から丸ごと抜け落ちることがある不具合を修正しました<ul>
+    <li>ChatGPT では、AI が考え込んでから画像を返した場合（「Worked for 1m 38s」などが出る形）に、その回答が発言ごと消えていました</li>
+    <li>Claude / Gemini では、取り込めなかった発言を黙って捨てていました。捨てた件数を記録に残すようにしたので、今後同じことが起きた時に気づけます</li>
+    </ul>
+    </li>
+    </ul>
+    <h3>1.0.5.3（2026-07-09）</h3>
+    <p><strong>3 版共通</strong></p>
+    <ul>
+    <li>ツールバーの拡張機能アイコンを押すと「保存」「設定」ボタンが出るようになりました。会話画面に小窓（ウィジェット）が出ていない状況でも操作できます</li>
+    <li>対象のサービス以外のページでアイコンを押した時に、案内を表示するようにしました</li>
+    <li>ストア掲載の説明文を更新しました（拡張機能だけでは動作せず、本体アプリが必要であることを明示）</li>
+    </ul>
+    <p><strong>ChatGPT 版</strong></p>
+    <ul>
+    <li>共有ページ（<code>/share/</code>）の保存に対応しました</li>
+    <li>画像が保存物から抜け落ちる不具合をまとめて修正しました。1 回のプロンプトで複数枚生成した時に選ばなかった候補画像も保存し、画像が表示される前に保存した場合の取りこぼしも防ぎます</li>
+    <li>グラフを取得して PDF に忠実に描画するようにしました</li>
+    <li>ショッピングの商品カルーセルを、横並びのカードとして保存するようにしました</li>
+    <li>複数の画像を、均一な正方タイルの格子で並べて表示するようにしました（HTML / PDF 共通）</li>
+    <li>無料版の広告が会話に挟まると、広告より後の発言が保存されなかった不具合を修正しました</li>
+    <li>グループチャットで、他の参加者が添付した画像を実際に表示するようにしました。発言も送信者名付きのブロックに整えています</li>
+    <li>保存ボタンを押した時に一時的に固まる問題を解消しました</li>
+    <li>取得に時間がかかっている間、処理中であることを示す表示を出すようにしました</li>
+    </ul>
+    <p><strong>Claude 版</strong></p>
+    <ul>
+    <li>共有ページ（<code>/share/</code>）の保存に対応しました</li>
+    <li><code>claude.ai/code</code>（コード画面）の会話保存に対応しました。この画面にも小窓（ウィジェット）を表示します。なお、この画面はつくりの都合でキャプチャモードが使えないため、該当ボタンは無効表示にしています</li>
+    <li>図（SVG / Mermaid など）を画像として出力に埋め込むようにしました</li>
+    <li>対話型グラフを全タブ分取得し、それぞれ画像として埋め込むようにしました</li>
+    <li>ネット上の引用画像を取得し、インターネットに繋がっていなくても見られるよう HTML に埋め込むようにしました</li>
+    <li>複数の画像を、均一な正方タイルの格子で並べて表示するようにしました（HTML / PDF 共通）</li>
+    <li>取得に時間がかかっている間、処理中であることを示す表示を出すようにしました</li>
+    </ul>
+    <p><strong>Gemini 版</strong></p>
+    <ul>
+    <li>共有ページの保存で、AI の返答や生成画像が抜け落ちる不具合を修正しました。保存タイトルの文字化けもあわせて解消しています</li>
+    <li>コード実行で作られたグラフ画像が、保存物で灰色の箱や URL 文字になっていた不具合を修正しました</li>
+    <li>ショッピング結果を全形式（HTML / md / txt / PDF）で見やすく整えました。一部のアカウントで画像・商品名・価格がまとめて抜け落ちる不具合も修正しています</li>
+    <li>ウェブ引用の画像を出力に埋め込み、出典表示・配置・表示サイズ・説明文を整えました</li>
+    <li>数式を読みやすい形で描画するようにしました</li>
+    <li>引用部分の見た目を、サイト上の表示に合わせました</li>
+    <li>複数の画像を、均一な正方タイルの格子で並べて表示するようにしました（HTML / PDF 共通）</li>
+    </ul>
+    <p>（これより前のバージョンの履歴は記録していません）</p>
+    <hr>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="index.html">AI Session Archiver</a> ·
+      <a href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">ダウンロード - 無料版</a> ·
+      <a href="https://jellycotton.booth.pm/items/8436423">BOOTH</a> ·
+      <a href="https://dialoguevolts.lemonsqueezy.com/">Lemon Squeezy</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts　お問い合わせ: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>

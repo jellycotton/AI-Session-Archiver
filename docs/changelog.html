@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changelog - AI Session Archiver</title>
+<meta name="description" content="Release history for AI Session Archiver: the Windows app and the Chrome extension, with what changed in each version.">
+<meta name="google-site-verification" content="ik6IVrvhO9s1g4Wbab78NyYq04ZM6bF3-BrZLDluVrg">
+<link rel="canonical" href="https://jellycotton.github.io/AI-Session-Archiver/changelog.html">
+<link rel="alternate" hreflang="en" href="https://jellycotton.github.io/AI-Session-Archiver/changelog.html">
+<link rel="alternate" hreflang="ja" href="https://jellycotton.github.io/AI-Session-Archiver/ja/changelog.html">
+<link rel="alternate" hreflang="x-default" href="https://jellycotton.github.io/AI-Session-Archiver/changelog.html">
+<link rel="icon" href="img/logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Session Archiver - Changelog">
+<meta property="og:description" content="Release history for AI Session Archiver: the Windows app and the Chrome extension, with what changed in each version.">
+<meta property="og:image" content="https://jellycotton.github.io/AI-Session-Archiver/img/logo.png">
+<meta name="twitter:card" content="summary">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1d21; --muted:#5b6570; --line:#e4e7eb;
+    --card:#f7f8fa; --accent:#0b7a5a; --accent-fg:#ffffff; --shadow:0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14171a; --fg:#e9ecef; --muted:#a2acb5; --line:#2a2f35;
+           --card:#1b1f24; --accent:#2fae86; --accent-fg:#08110d; --shadow:none; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  a{color:var(--accent)}
+  img{max-width:100%;height:auto;display:block}
+
+  header{padding:48px 0 32px;border-bottom:1px solid var(--line)}
+  header img.logo{width:56px;margin:0 0 20px}
+  h1{font-size:1.85rem;margin:0 0 12px;letter-spacing:-.01em;line-height:1.35}
+  .lede{font-size:1.1rem;color:var(--muted);margin:0}
+
+  section{padding:40px 0}
+  h2{font-size:1.3rem;margin:0 0 8px}
+  h3{font-size:1.05rem;margin:32px 0 6px}
+  p{margin:0 0 16px}
+
+  ul{margin:0 0 16px;padding-left:1.2rem}
+  li{margin-bottom:8px}
+  ul ul{margin:8px 0 0}
+  code{font-size:.92em;background:var(--card);border:1px solid var(--line);
+       border-radius:5px;padding:1px 6px}
+  hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+
+  footer{padding:40px 0 64px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  footer a{color:var(--muted)}
+
+  .navrow{display:flex;justify-content:space-between;align-items:center;gap:12px;
+          padding:14px 0 0;font-size:.9rem}
+  .navrow a{color:var(--muted);text-decoration:none;border:1px solid var(--line);
+            padding:5px 12px;border-radius:999px}
+</style>
+</head>
+<body>
+
+<div class="wrap navrow">
+  <a href="index.html">&larr; AI Session Archiver</a>
+  <a href="ja/changelog.html">日本語</a>
+</div>
+
+<header>
+  <div class="wrap">
+    <img class="logo" src="img/logo.png" alt="AI Session Archiver logo">
+    <h1>Changelog</h1>
+    <p class="lede">Release history for AI Session Archiver (ASA). ASA has two parts — the Windows app and the Chrome extension — so they are listed separately. Their version numbers advance independently.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <ul>
+    <li><strong>App:</strong> updated by replacing your install with a newer download from the stores (BOOTH / Lemon Squeezy) or from GitHub Releases.</li>
+    <li><strong>Extension:</strong> updated automatically by the Chrome Web Store. Nothing to do on your side.</li>
+    </ul>
+    <hr>
+    <h2>Windows App</h2>
+    <p>The same for all three editions (ChatGPT / Claude / Gemini).</p>
+    <h3>v1.0.5.13 (2026-08-16)</h3>
+    <ul>
+    <li>The update notice now offers GitHub alongside the stores. It previously listed only BOOTH and Lemon Squeezy purchase histories, which left anyone who installed from GitHub without a destination<ul>
+    <li>The notice is drawn by the version that receives it, so the GitHub button appears once you are on this version and the next update arrives</li>
+    </ul>
+    </li>
+    <li>When the update check fails part way through, the reason is now written to a log instead of the check ending silently</li>
+    </ul>
+    <h3>v1.0.5.12 (2026-08-16)</h3>
+    <ul>
+    <li>Fixed bold text being dropped from PDF output (the markers simply vanished)</li>
+    <li>Images you attached are now drawn as images in PDF output; previously a long string standing in for the image could appear in the body text</li>
+    <li>Tidied up how quotes are drawn<ul>
+    <li>The rule beside a quote is now one line per block instead of one per line of text</li>
+    <li>The rule no longer runs through the first character of a heading</li>
+    <li>Quoted text was too faint to read comfortably and now matches the body colour (HTML and PDF)</li>
+    </ul>
+    </li>
+    <li>Fixed a stray line break appearing in the middle of a paragraph</li>
+    <li>AI-generated images are now stacked vertically; side by side they could be cropped</li>
+    </ul>
+    <h3>v1.0.5.11 (2026-08-11)</h3>
+    <ul>
+    <li>Reworded the installer prompts: dropped the dependency-installation notice that never applied to the packaged build, and merged two confirmations into one</li>
+    <li>The completion screen now says you can skip the store when the extension is already installed</li>
+    </ul>
+    <h3>v1.0.5.10 (2026-08-09)</h3>
+    <ul>
+    <li>Fixed an issue where the selected tag order was not saved correctly</li>
+    </ul>
+    <h3>v1.0.5.9 (2026-08-09)</h3>
+    <ul>
+    <li>Settings (tags, save preferences, etc.) now carry over when you update to a new version</li>
+    <li>The default save folder moved outside the app folder, so your saved conversations are never affected by updates or uninstalls</li>
+    <li>The extracted folder name now includes the version number, preventing accidental nested folders when extracting over an old install</li>
+    <li>The setup completion screen and the settings screen now show the current version</li>
+    <li>Fixed the realtime capture window growing wider as text streamed in</li>
+    </ul>
+    <p>(History before this version is not recorded)</p>
+    <hr>
+    <h2>Chrome Extension</h2>
+    <p>For "ASA Bridge for ChatGPT / Claude / Gemini". You can check the installed version on Chrome's Extensions page.</p>
+    <h3>1.0.5.4 (2026-08-14)</h3>
+    <p><strong>All three editions</strong></p>
+    <ul>
+    <li>Fixed parts of a conversation going missing from the saved file<ul>
+    <li>On ChatGPT, an answer that arrived after a spell of thinking ("Worked for 1m 38s" and the like) and consisted only of images was dropped along with its whole turn</li>
+    <li>On Claude and Gemini, messages that could not be read were discarded silently. The count is now recorded, so the next occurrence is visible</li>
+    </ul>
+    </li>
+    </ul>
+    <h3>1.0.5.3 (2026-07-09)</h3>
+    <p><strong>All three editions</strong></p>
+    <ul>
+    <li>Clicking the extension icon in the toolbar now opens a popup with Save and Settings buttons, so you can still operate ASA when the on-page widget isn't showing</li>
+    <li>The popup now shows a short explanation when you click it on a page that isn't a supported service</li>
+    <li>Updated the store listing text to state up front that the extension needs the desktop app to work</li>
+    </ul>
+    <p><strong>For ChatGPT</strong></p>
+    <ul>
+    <li>Added support for saving shared pages (<code>/share/</code>)</li>
+    <li>Fixed a group of issues where images went missing from saved output — alternate images from a multi-image generation are now kept, and images are no longer lost when you save before they finish rendering</li>
+    <li>Charts are now captured and drawn faithfully in PDF output</li>
+    <li>Shopping carousels are now saved as a row of product cards</li>
+    <li>Multiple images are laid out as a grid of uniform square tiles (HTML and PDF)</li>
+    <li>Fixed messages after an inline free-plan ad being cut from the saved conversation</li>
+    <li>Images attached by other people in group chats are now shown, and each message is formatted as a block with the sender's name</li>
+    <li>Fixed the brief freeze when pressing the save button</li>
+    <li>A progress indicator now appears when fetching takes longer than usual</li>
+    </ul>
+    <p><strong>For Claude</strong></p>
+    <ul>
+    <li>Added support for saving shared pages (<code>/share/</code>)</li>
+    <li>Added support for saving conversations on <code>claude.ai/code</code>, including the on-page widget. Capture mode cannot work on that screen by design, so its button is shown disabled there</li>
+    <li>Diagrams (SVG, Mermaid, and similar) are now embedded in the output as images</li>
+    <li>Interactive charts are captured across all their tabs and embedded as images</li>
+    <li>Cited images from the web are downloaded and embedded into the HTML, so they still display offline</li>
+    <li>Multiple images are laid out as a grid of uniform square tiles (HTML and PDF)</li>
+    <li>A progress indicator now appears when fetching takes longer than usual</li>
+    </ul>
+    <p><strong>For Gemini</strong></p>
+    <ul>
+    <li>Fixed AI replies and generated images going missing when saving a shared page, and fixed garbled characters in the saved title</li>
+    <li>Fixed charts produced by code execution appearing as a grey box or a raw URL in saved output</li>
+    <li>Cleaned up how shopping results are saved across all formats (HTML / md / txt / PDF), and fixed images, product names, and prices being dropped entirely on some accounts</li>
+    <li>Cited images from the web are embedded in the output, with tidied source labels, placement, sizing, and captions</li>
+    <li>Formulas are now rendered in a more readable form</li>
+    <li>Quoted passages now match how they look on the site</li>
+    <li>Multiple images are laid out as a grid of uniform square tiles (HTML and PDF)</li>
+    </ul>
+    <p>(History before this version is not recorded)</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>
+      <a href="index.html">AI Session Archiver</a> ·
+      <a href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">Download - Free edition</a> ·
+      <a href="https://dialoguevolts.lemonsqueezy.com/">Store (English)</a> ·
+      <a href="https://jellycotton.booth.pm/items/8436423">BOOTH (Japanese)</a>
+    </p>
+    <p>© 2026 Dialogue &amp; Volts. Contact: dialoguevolts@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
