@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Session Archiver - ChatGPT・Claude・Gemini の会話を自分の PC に保存</title>
-<meta name="description" content="ChatGPT・Claude・Gemini の会話をワンクリックで自分の PC に保存する Windows アプリ。オートリカバリーで、閉じてしまった一時チャットのログも保存できます。無料版あり。">
+<title>ChatGPT・Claude・Gemini の一時チャットを保存 - AI Session Archiver</title>
+<meta name="description" content="履歴に残らない一時チャット（Claude はシークレットチャット）も、ワンクリックで自分の PC に保存できる Windows アプリ。開いているうちの保存は無料版でも回数無制限。閉じてしまった後の救出はオートリカバリーで。">
 <meta name="google-site-verification" content="ik6IVrvhO9s1g4Wbab78NyYq04ZM6bF3-BrZLDluVrg">
 <link rel="canonical" href="https://jellycotton.github.io/AI-Session-Archiver/ja/">
 <link rel="alternate" hreflang="en" href="https://jellycotton.github.io/AI-Session-Archiver/">
@@ -13,7 +13,7 @@
 <link rel="icon" href="../img/logo.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="AI Session Archiver">
-<meta property="og:description" content="ChatGPT・Claude・Gemini の会話をワンクリックで自分の PC に保存。Windows アプリ + Chrome 拡張。無料版あり。">
+<meta property="og:description" content="履歴に残らない一時チャットも、ワンクリックで自分の PC に保存。Windows アプリ + Chrome 拡張。無料版あり。">
 <meta property="og:image" content="https://jellycotton.github.io/AI-Session-Archiver/img/ja/01-main.png">
 <meta name="twitter:card" content="summary_large_image">
 <style>
@@ -82,7 +82,8 @@
   <div class="wrap">
     <img class="logo" src="../img/logo.png" alt="AI Session Archiver のロゴ">
     <h1>AI Session Archiver</h1>
-    <p class="lede">ChatGPT・Claude・Gemini の会話を、ワンクリックで自分の PC に保存。</p>
+    <p class="lede">ChatGPT・Claude・Gemini の会話を、ワンクリックで自分の PC に保存。<br>
+       履歴に残らない<strong>一時チャット</strong>にも対応しています。</p>
     <div class="cta">
       <a class="btn" href="https://github.com/jellycotton/AI-Session-Archiver/releases/latest">ダウンロード - 無料版</a>
       <a class="btn secondary" href="https://jellycotton.booth.pm/items/8436423">購入 - BOOTH 1,480円</a>
@@ -99,10 +100,9 @@
 
     <div class="feature">
       <h3>オートリカバリー</h3>
-      <p>うっかり閉じてしまった一時チャット・シークレットチャットのログも、失わずに保存できます。
-         有効にしておくと会話中のログが端末に一時的に保持され、次回起動時に保存するか尋ねる画面が出ます。
-         オン / オフは設定で自由に切り替えられるので、残したい時だけ残せます。
-         <a href="guide/temporary-chat.html">一時チャットを保存する方法 &rarr;</a></p>
+      <p>有効にしておくと会話中のログが端末に一時的に保持され、次回起動時に保存するか尋ねる画面が出ます。
+         うっかり閉じてしまった一時チャット・シークレットチャットのログも、これで失わずに済みます。
+         オン / オフは設定で自由に切り替えられるので、残したい時だけ残せます。</p>
     </div>
 
     <div class="feature">
@@ -128,12 +128,22 @@
 
 <section>
   <div class="wrap">
+    <h2>いろいろなチャットに対応</h2>
+    <p>普通の会話だけではありません。履歴に残らない<strong>一時チャット</strong>（Claude では
+       シークレットチャット）、<strong>グループチャット</strong>、<strong>プロジェクト</strong>の中の会話など、
+       サービスごとのいろいろなチャットも同じ保存ボタンで保存できます。
+       <a href="guide/temporary-chat.html">一時チャットを保存する方法 &rarr;</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
     <h2>画面</h2>
     <p class="sub">保存したときの仕上がりと、主な設定画面です。</p>
 
     <figure>
       <img src="../img/ja/01-main.png" alt="ASA のメイン画面">
-      <figcaption>保存の仕上がり。会話が、画像もコードもそのままの形でパソコンの中のファイルになります（右は HTML と PDF）。</figcaption>
+      <figcaption>保存の仕上がり。中央がチャットの画面、右が保存された HTML と PDF です。</figcaption>
     </figure>
 
     <figure>
